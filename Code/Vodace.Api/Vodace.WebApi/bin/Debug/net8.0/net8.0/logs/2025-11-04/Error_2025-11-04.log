@@ -1,0 +1,9 @@
+【10:33:13.575】  Error T19 
+抛出信息：Biz_ContractOrgService.Add 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Biz_ContractOrgService.Add(ContractOrgDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\Biz\Partial\Biz_ContractOrgService.cs:line 95
+【13:54:17.272】  Debug T25 
+方法名称：MoveNext
+日志内容：密码错误

@@ -1,0 +1,231 @@
+【16:33:07.323】  Error T17 
+抛出信息：Biz_Site_Work_Record_WorkerService.GetSiteAttendanceSalaryTotal 
+异常类型：InvalidOperationException 
+异常信息：The LINQ expression 'DbSet<Biz_Site_Work_Record>()
+    .Where(b => b.delete_status == (int?)0)
+    .Where(b => b.delete_status == __valid_0)
+    .Join(
+        inner: DbSet<Biz_Site_Work_Record_Worker>()
+            .Where(b0 => b0.delete_status == (int?)0)
+            .Where(b0 => b0.delete_status == __valid_0), 
+        outerKeySelector: b => (object)(Guid?)b.id, 
+        innerKeySelector: b0 => (object)b0.record_id, 
+        resultSelector: (b, b0) => new TransparentIdentifier<Biz_Site_Work_Record, Biz_Site_Work_Record_Worker>(
+            Outer = b, 
+            Inner = b0
+        ))
+    .Join(
+        inner: DbSet<Biz_Contract>()
+            .Where(b1 => b1.delete_status == (int?)0)
+            .Where(b1 => b1.delete_status == __valid_0), 
+        outerKeySelector: ti => (object)ti.Outer.contract_id, 
+        innerKeySelector: b1 => (object)(Guid?)b1.id, 
+        resultSelector: (ti, b1) => new TransparentIdentifier<TransparentIdentifier<Biz_Site_Work_Record, Biz_Site_Work_Record_Worker>, Biz_Contract>(
+            Outer = ti, 
+            Inner = b1
+        ))
+    .LeftJoin(
+        inner: DbSet<Sys_Contact>()
+            .Where(s => s.delete_status == (int?)0)
+            .Where(s => s.delete_status == __valid_0), 
+        outerKeySelector: ti0 => (object)ti0.Outer.Inner.contact_id, 
+        innerKeySelector: s => (object)(Guid?)s.id, 
+        resultSelector: (ti0, s) => new TransparentIdentifier<TransparentIdentifier<TransparentIdentifier<Biz_Site_Work_Record, Biz_Site_Work_Record_Worker>, Biz_Contract>, Sys_Contact>(
+            Outer = ti0, 
+            Inner = s
+        ))
+    .GroupBy(ti1 => new { 
+        contract_id = ti1.Outer.Outer.Outer.contract_id, 
+        contract_no = ti1.Outer.Inner.contract_no, 
+        contact_id = ti1.Outer.Outer.Inner.contact_id, 
+        contact_name_eng = ti1.Inner.name_eng, 
+        contact_name_cht = ti1.Inner.name_cht, 
+        year = ti1.Outer.Outer.Outer.work_date.Value.Year, 
+        month = ti1.Outer.Outer.Outer.work_date.Value.Month
+     })
+    .Select(g => new { 
+        contract_id = g.Key.contract_id, 
+        contract_no = g.Key.contract_no, 
+        contact_id = g.Key.contact_id, 
+        contact_name_eng = g.Key.contact_name_eng, 
+        contact_name_cht = g.Key.contact_name_cht, 
+        yearmonth = string.Format(
+            format: "{0}-{1:D2}", 
+            arg0: (object)g.Key.year, 
+            arg1: (object)g.Key.month), 
+        monthlysalary = g
+            .AsQueryable()
+            .Sum(e => e.Outer.Outer.Inner.salary_adj ?? e.Outer.Outer.Inner.base_salary + (decimal?)(e.Outer.Outer.Inner.traffic_allowance ?? 0)), 
+        recordcount = g
+            .AsQueryable()
+            .Count()
+     })
+    .OrderByDescending(e0 => e0.yearmonth)' could not be translated. Additional information: Translation of method 'string.Format' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information. 
+堆栈调用：
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Vodace.Sys.Services.Biz_Site_Work_Record_WorkerService.GetSiteAttendanceSalaryTotal(PageInput`1 dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\Biz\Partial\Biz_Site_Work_Record_WorkerService.cs:line 1000
+【16:33:27.405】  Error T19 
+抛出信息：Biz_Site_Work_Record_WorkerService.GetSiteAttendanceSalaryTotal 
+异常类型：InvalidOperationException 
+异常信息：The LINQ expression 'DbSet<Biz_Site_Work_Record>()
+    .Where(b => b.delete_status == (int?)0)
+    .Where(b => b.delete_status == __valid_0)
+    .Join(
+        inner: DbSet<Biz_Site_Work_Record_Worker>()
+            .Where(b0 => b0.delete_status == (int?)0)
+            .Where(b0 => b0.delete_status == __valid_0), 
+        outerKeySelector: b => (object)(Guid?)b.id, 
+        innerKeySelector: b0 => (object)b0.record_id, 
+        resultSelector: (b, b0) => new TransparentIdentifier<Biz_Site_Work_Record, Biz_Site_Work_Record_Worker>(
+            Outer = b, 
+            Inner = b0
+        ))
+    .Join(
+        inner: DbSet<Biz_Contract>()
+            .Where(b1 => b1.delete_status == (int?)0)
+            .Where(b1 => b1.delete_status == __valid_0), 
+        outerKeySelector: ti => (object)ti.Outer.contract_id, 
+        innerKeySelector: b1 => (object)(Guid?)b1.id, 
+        resultSelector: (ti, b1) => new TransparentIdentifier<TransparentIdentifier<Biz_Site_Work_Record, Biz_Site_Work_Record_Worker>, Biz_Contract>(
+            Outer = ti, 
+            Inner = b1
+        ))
+    .LeftJoin(
+        inner: DbSet<Sys_Contact>()
+            .Where(s => s.delete_status == (int?)0)
+            .Where(s => s.delete_status == __valid_0), 
+        outerKeySelector: ti0 => (object)ti0.Outer.Inner.contact_id, 
+        innerKeySelector: s => (object)(Guid?)s.id, 
+        resultSelector: (ti0, s) => new TransparentIdentifier<TransparentIdentifier<TransparentIdentifier<Biz_Site_Work_Record, Biz_Site_Work_Record_Worker>, Biz_Contract>, Sys_Contact>(
+            Outer = ti0, 
+            Inner = s
+        ))
+    .GroupBy(ti1 => new { 
+        contract_id = ti1.Outer.Outer.Outer.contract_id, 
+        contract_no = ti1.Outer.Inner.contract_no, 
+        contact_id = ti1.Outer.Outer.Inner.contact_id, 
+        contact_name_eng = ti1.Inner.name_eng, 
+        contact_name_cht = ti1.Inner.name_cht, 
+        year = ti1.Outer.Outer.Outer.work_date.Value.Year, 
+        month = ti1.Outer.Outer.Outer.work_date.Value.Month
+     })
+    .Select(g => new { 
+        contract_id = g.Key.contract_id, 
+        contract_no = g.Key.contract_no, 
+        contact_id = g.Key.contact_id, 
+        contact_name_eng = g.Key.contact_name_eng, 
+        contact_name_cht = g.Key.contact_name_cht, 
+        yearmonth = string.Format(
+            format: "{0}-{1:D2}", 
+            arg0: (object)g.Key.year, 
+            arg1: (object)g.Key.month), 
+        monthlysalary = g
+            .AsQueryable()
+            .Sum(e => e.Outer.Outer.Inner.salary_adj ?? e.Outer.Outer.Inner.base_salary + (decimal?)(e.Outer.Outer.Inner.traffic_allowance ?? 0)), 
+        recordcount = g
+            .AsQueryable()
+            .Count()
+     })
+    .OrderByDescending(e0 => e0.yearmonth)' could not be translated. Additional information: Translation of method 'string.Format' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information. 
+堆栈调用：
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Vodace.Sys.Services.Biz_Site_Work_Record_WorkerService.GetSiteAttendanceSalaryTotal(PageInput`1 dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\Biz\Partial\Biz_Site_Work_Record_WorkerService.cs:line 1000
+【16:35:31.411】  Error T19 
+抛出信息：Biz_Site_Work_Record_WorkerService.GetSiteAttendanceSalaryTotal 
+异常类型：InvalidOperationException 
+异常信息：The LINQ expression 'DbSet<Biz_Site_Work_Record>()
+    .Where(b => b.delete_status == (int?)0)
+    .Where(b => b.delete_status == __valid_0)
+    .Join(
+        inner: DbSet<Biz_Site_Work_Record_Worker>()
+            .Where(b0 => b0.delete_status == (int?)0)
+            .Where(b0 => b0.delete_status == __valid_0), 
+        outerKeySelector: b => (object)(Guid?)b.id, 
+        innerKeySelector: b0 => (object)b0.record_id, 
+        resultSelector: (b, b0) => new TransparentIdentifier<Biz_Site_Work_Record, Biz_Site_Work_Record_Worker>(
+            Outer = b, 
+            Inner = b0
+        ))
+    .Join(
+        inner: DbSet<Biz_Contract>()
+            .Where(b1 => b1.delete_status == (int?)0)
+            .Where(b1 => b1.delete_status == __valid_0), 
+        outerKeySelector: ti => (object)ti.Outer.contract_id, 
+        innerKeySelector: b1 => (object)(Guid?)b1.id, 
+        resultSelector: (ti, b1) => new TransparentIdentifier<TransparentIdentifier<Biz_Site_Work_Record, Biz_Site_Work_Record_Worker>, Biz_Contract>(
+            Outer = ti, 
+            Inner = b1
+        ))
+    .LeftJoin(
+        inner: DbSet<Sys_Contact>()
+            .Where(s => s.delete_status == (int?)0)
+            .Where(s => s.delete_status == __valid_0), 
+        outerKeySelector: ti0 => (object)ti0.Outer.Inner.contact_id, 
+        innerKeySelector: s => (object)(Guid?)s.id, 
+        resultSelector: (ti0, s) => new TransparentIdentifier<TransparentIdentifier<TransparentIdentifier<Biz_Site_Work_Record, Biz_Site_Work_Record_Worker>, Biz_Contract>, Sys_Contact>(
+            Outer = ti0, 
+            Inner = s
+        ))
+    .GroupBy(ti1 => new { 
+        contract_id = ti1.Outer.Outer.Outer.contract_id, 
+        contract_no = ti1.Outer.Inner.contract_no, 
+        contact_id = ti1.Outer.Outer.Inner.contact_id, 
+        contact_name_eng = ti1.Inner.name_eng, 
+        contact_name_cht = ti1.Inner.name_cht, 
+        year = ti1.Outer.Outer.Outer.work_date.Value.Year, 
+        month = ti1.Outer.Outer.Outer.work_date.Value.Month
+     })
+    .Select(g => new { 
+        contract_id = g.Key.contract_id, 
+        contract_no = g.Key.contract_no, 
+        contact_id = g.Key.contact_id, 
+        contact_name_eng = g.Key.contact_name_eng, 
+        contact_name_cht = g.Key.contact_name_cht, 
+        yearmonth = string.Format(
+            format: "{0}-{1:D2}", 
+            arg0: (object)g.Key.year, 
+            arg1: (object)g.Key.month), 
+        monthlysalary = g
+            .AsQueryable()
+            .Sum(e => e.Outer.Outer.Inner.salary_adj ?? e.Outer.Outer.Inner.base_salary + (decimal?)(e.Outer.Outer.Inner.traffic_allowance ?? 0)), 
+        recordcount = g
+            .AsQueryable()
+            .Count()
+     })
+    .OrderByDescending(e0 => e0.yearmonth)' could not be translated. Additional information: Translation of method 'string.Format' failed. If this method can be mapped to your custom function, see https://go.microsoft.com/fwlink/?linkid=2132413 for more information. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information. 
+堆栈调用：
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Vodace.Sys.Services.Biz_Site_Work_Record_WorkerService.GetSiteAttendanceSalaryTotal(PageInput`1 dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\Biz\Partial\Biz_Site_Work_Record_WorkerService.cs:line 1000

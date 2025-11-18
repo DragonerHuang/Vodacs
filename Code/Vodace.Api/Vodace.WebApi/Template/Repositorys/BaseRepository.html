@@ -1,0 +1,21 @@
+﻿
+using {Namespace}.IRepositories;
+using {StartName}.Core.BaseProvider;
+using {StartName}.Core.EFDbContext;
+using {StartName}.Core.Extensions.AutofacManager;
+using {StartName}.Entity.DomainModels;
+
+namespace {Namespace}.Repositories
+{
+    public partial class {TableName}Repository : RepositoryBase<{TableName}> , I{TableName}Repository
+    {
+    public {TableName}Repository(VOLContext dbContext)
+    : base(dbContext)
+    {
+
+    }
+    public static I{TableName}Repository Instance
+    {
+      get {  return AutofacContainerModule.GetService<I{TableName}Repository>(); } }
+    }
+}

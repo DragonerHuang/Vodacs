@@ -1,0 +1,411 @@
+【15:23:18.092】  Error T22 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：InvalidOperationException 
+异常信息：Nullable object must have a value. 
+堆栈调用：
+   at System.Nullable`1.get_Value()
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 99
+【15:23:51.400】  Error T28 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：InvalidOperationException 
+异常信息：Nullable object must have a value. 
+堆栈调用：
+   at System.Nullable`1.get_Value()
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 99
+【15:25:17.608】  Error T21 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：InvalidOperationException 
+异常信息：Nullable object must have a value. 
+堆栈调用：
+   at System.Nullable`1.get_Value()
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto)
+【15:26:22.877】  Error T7 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：InvalidOperationException 
+异常信息：Nullable object must have a value. 
+堆栈调用：
+   at System.Nullable`1.get_Value()
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto)
+【15:26:44.930】  Error T25 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：InvalidOperationException 
+异常信息：Nullable object must have a value. 
+堆栈调用：
+   at System.Nullable`1.get_Value()
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto)
+【15:38:41.205】  Error T18 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：InvalidOperationException 
+异常信息：Nullable object must have a value. 
+堆栈调用：
+   at System.Nullable`1.get_Value()
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 99
+【15:44:08.806】  Error T23 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlException 
+异常信息：Cannot insert the value NULL into column 'user_no', table 'Vodace_dev.dbo.Sys_Leave_Record'; column does not allow nulls. INSERT fails.
+The statement has been terminated. 
+堆栈调用：
+   at Vodace.Core.EFDbContext.VOLContext.SaveChanges() in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\EFDbContext\VOLContext.cs:line 57
+   at Vodace.Core.BaseProvider.RepositoryBase`1.SaveChanges() in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 629
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 136
+【15:44:21.434】  Error T26 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlException 
+异常信息：Cannot insert the value NULL into column 'user_no', table 'Vodace_dev.dbo.Sys_Leave_Record'; column does not allow nulls. INSERT fails.
+The statement has been terminated. 
+堆栈调用：
+   at Vodace.Core.EFDbContext.VOLContext.SaveChanges() in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\EFDbContext\VOLContext.cs:line 57
+   at Vodace.Core.BaseProvider.RepositoryBase`1.SaveChanges() in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 629
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 136
+【15:44:49.904】  Error T23 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlException 
+异常信息：Cannot insert the value NULL into column 'user_no', table 'Vodace_dev.dbo.Sys_Leave_Record'; column does not allow nulls. INSERT fails.
+The statement has been terminated. 
+堆栈调用：
+   at Vodace.Core.EFDbContext.VOLContext.SaveChanges() in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\EFDbContext\VOLContext.cs:line 57
+   at Vodace.Core.BaseProvider.RepositoryBase`1.SaveChanges() in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 629
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto)
+【15:45:22.042】  Error T20 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlException 
+异常信息：Cannot insert the value NULL into column 'user_no', table 'Vodace_dev.dbo.Sys_Leave_Record'; column does not allow nulls. INSERT fails.
+The statement has been terminated. 
+堆栈调用：
+   at Vodace.Core.EFDbContext.VOLContext.SaveChanges() in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\EFDbContext\VOLContext.cs:line 57
+   at Vodace.Core.BaseProvider.RepositoryBase`1.SaveChanges() in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 629
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto)
+【15:45:41.397】  Error T20 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlException 
+异常信息：Cannot insert the value NULL into column 'user_no', table 'Vodace_dev.dbo.Sys_Leave_Record'; column does not allow nulls. INSERT fails.
+The statement has been terminated. 
+堆栈调用：
+   at Vodace.Core.EFDbContext.VOLContext.SaveChanges() in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\EFDbContext\VOLContext.cs:line 57
+   at Vodace.Core.BaseProvider.RepositoryBase`1.SaveChanges() in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 629
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto)
+【15:50:09.737】  Error T7 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method899(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto)
+【15:51:53.308】  Error T10 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method870(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 71
+【15:53:53.632】  Error T20 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method872(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 77
+【15:58:24.885】  Error T23 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method872(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 77
+【16:00:45.475】  Error T23 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method881(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto)
+【16:01:05.931】  Error T23 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method881(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto)
+【16:02:02.842】  Error T18 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method872(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 77
+【16:02:52.196】  Error T18 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method872(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 77
+【16:06:11.671】  Error T22 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method872(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 77
+【17:31:57.184】  Error T5 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method872(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 77
+【17:38:46.579】  Error T3 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method872(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto)
+【17:39:39.995】  Error T7 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method872(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 77
+【17:40:14.361】  Error T18 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method872(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 77
+【17:42:04.580】  Error T7 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method872(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 86
+【17:42:58.197】  Error T17 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method872(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 86
+【17:46:30.796】  Error T18 
+抛出信息：Sys_Leave_RecordService.Add 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method872(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Add(LeaveRecordDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 77
+【18:00:48.113】  Error T19 
+抛出信息：Sys_Leave_RecordService.Edit 
+异常类型：DbUpdateConcurrencyException 
+异常信息：The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See https://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions. 
+堆栈调用：
+   at Vodace.Core.EFDbContext.VOLContext.SaveChanges() in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\EFDbContext\VOLContext.cs:line 57
+   at Vodace.Core.BaseProvider.RepositoryBase`1.SaveChanges() in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 629
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Edit(LeaveRecordEditDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 255
+【18:01:40.467】  Error T21 
+抛出信息：Sys_Leave_RecordService.Edit 
+异常类型：DbUpdateConcurrencyException 
+异常信息：The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See https://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions. 
+堆栈调用：
+   at Vodace.Core.EFDbContext.VOLContext.SaveChanges() in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\EFDbContext\VOLContext.cs:line 57
+   at Vodace.Core.BaseProvider.RepositoryBase`1.SaveChanges() in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 629
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Edit(LeaveRecordEditDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 255
+【18:02:06.917】  Error T23 
+抛出信息：Sys_Leave_RecordService.Edit 
+异常类型：DbUpdateConcurrencyException 
+异常信息：The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See https://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions. 
+堆栈调用：
+   at Vodace.Core.EFDbContext.VOLContext.SaveChanges() in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\EFDbContext\VOLContext.cs:line 57
+   at Vodace.Core.BaseProvider.RepositoryBase`1.SaveChanges() in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 629
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Edit(LeaveRecordEditDto dto)
+【18:02:54.496】  Error T19 
+抛出信息：Sys_Leave_RecordService.Edit 
+异常类型：DbUpdateConcurrencyException 
+异常信息：The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See https://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions. 
+堆栈调用：
+   at Vodace.Core.EFDbContext.VOLContext.SaveChanges() in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\EFDbContext\VOLContext.cs:line 57
+   at Vodace.Core.BaseProvider.RepositoryBase`1.SaveChanges() in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 629
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Edit(LeaveRecordEditDto dto)
+【18:03:29.917】  Error T18 
+抛出信息：Sys_Leave_RecordService.Edit 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method874(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Edit(LeaveRecordEditDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 206
+【18:03:43.278】  Error T5 
+抛出信息：Sys_Leave_RecordService.Edit 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method874(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Edit(LeaveRecordEditDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 206
+【18:03:54.563】  Error T18 
+抛出信息：Sys_Leave_RecordService.Edit 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Guid()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetGuid(Int32 i)
+   at lambda_method874(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Leave_RecordService.Edit(LeaveRecordEditDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 206
+【18:07:09.909】  Error T25 
+抛出信息：Sys_Leave_RecordService.GetLeaveRecordList 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method904(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Vodace.Sys.Services.Sys_Leave_RecordService.GetLeaveRecordList(PageInput`1 dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 368
+【18:07:26.416】  Error T24 
+抛出信息：Sys_Leave_RecordService.GetLeaveRecordList 
+异常类型：SqlNullValueException 
+异常信息：Data is Null. This method or property cannot be called on Null values. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method904(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Vodace.Sys.Services.Sys_Leave_RecordService.GetLeaveRecordList(PageInput`1 dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Leave_RecordService.cs:line 368

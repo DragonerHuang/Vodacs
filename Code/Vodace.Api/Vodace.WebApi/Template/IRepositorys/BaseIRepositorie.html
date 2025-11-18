@@ -1,0 +1,15 @@
+﻿
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using {StartName}.Core.BaseProvider;
+using {StartName}.Entity.DomainModels;
+using {StartName}.Core.Extensions.AutofacManager;
+namespace {Namespace}.IRepositories
+{
+    public partial interface I{TableName}Repository : IDependency,IRepository<{TableName}>
+    {
+    }
+}

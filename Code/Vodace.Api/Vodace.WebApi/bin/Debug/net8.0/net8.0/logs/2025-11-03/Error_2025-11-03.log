@@ -1,0 +1,332 @@
+【10:41:36.920】  Error T40 
+抛出信息：Sys_Construction_Content_Init.ImportData 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Sys_Construction_Content_InitService.ImportData(IFormFile file) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Construction_Content_InitService.cs:line 254
+【10:41:59.938】  Error T40 
+抛出信息：Sys_Construction_Content_Init.ImportData 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Sys_Construction_Content_InitService.ImportData(IFormFile file) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Construction_Content_InitService.cs:line 254
+【10:43:39.143】  Error T18 
+抛出信息：Sys_Construction_Content_Init.ImportData 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Sys_Construction_Content_InitService.ImportData(IFormFile file) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Construction_Content_InitService.cs:line 254
+【10:44:43.282】  Error T18 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadPreWorkAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 colStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 626
+【10:44:43.320】  Error T18 
+抛出信息：NPOIHelper.ReadSiteWorkSheet 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteWorkSheet(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 append, List`1 columns, Dictionary`2 dicColumns) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 416
+【10:44:43.348】  Error T18 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteSurveyAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 301
+【10:44:43.398】  Error T18 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteSurveyAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 301
+【10:45:11.610】  Error T16 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_t5mY_20251103104511569.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadPreWorkAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 colStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 626
+【10:45:11.636】  Error T16 
+抛出信息：NPOIHelper.ReadSiteWorkSheet 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_t5mY_20251103104511569.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteWorkSheet(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 append, List`1 columns, Dictionary`2 dicColumns) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 416
+【10:45:11.655】  Error T16 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_t5mY_20251103104511569.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteSurveyAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 301
+【10:45:11.674】  Error T16 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_t5mY_20251103104511569.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteSurveyAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 301
+【10:45:41.934】  Error T17 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_rAI9_20251103104541883.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadPreWorkAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 colStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 626
+【10:45:41.964】  Error T17 
+抛出信息：NPOIHelper.ReadSiteWorkSheet 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_rAI9_20251103104541883.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteWorkSheet(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 append, List`1 columns, Dictionary`2 dicColumns) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 416
+【10:45:41.989】  Error T17 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_rAI9_20251103104541883.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteSurveyAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 301
+【10:45:42.012】  Error T17 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_rAI9_20251103104541883.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteSurveyAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 301
+【10:46:04.963】  Error T21 
+抛出信息：Vodace.Sys.Services.Sys_File_RecordsService.GetErrorInfo.Error: Object reference not set to an instance of an object. 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Sys_File_RecordsService.SaveFileByPath(List`1 fflFiles, String strRelPath) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_File_RecordsService.cs:line 408
+【10:46:14.261】  Error T17 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_kpo3_20251103104614225.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadPreWorkAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 colStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 626
+【10:46:14.286】  Error T17 
+抛出信息：NPOIHelper.ReadSiteWorkSheet 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_kpo3_20251103104614225.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteWorkSheet(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 append, List`1 columns, Dictionary`2 dicColumns) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 416
+【10:46:14.305】  Error T17 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_kpo3_20251103104614225.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteSurveyAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 301
+【10:46:14.326】  Error T17 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_kpo3_20251103104614225.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteSurveyAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 301
+【10:47:26.421】  Error T17 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_u0wk_20251103104636230.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadPreWorkAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 colStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 626
+【10:47:26.441】  Error T17 
+抛出信息：NPOIHelper.ReadSiteWorkSheet 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_u0wk_20251103104636230.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteWorkSheet(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 append, List`1 columns, Dictionary`2 dicColumns) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 416
+【10:47:26.462】  Error T17 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_u0wk_20251103104636230.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteSurveyAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 301
+【10:47:26.487】  Error T17 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_u0wk_20251103104636230.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteSurveyAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 301
+【10:49:59.883】  Error T17 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_4wkC_20251103104835976.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadPreWorkAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 colStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 626
+【10:49:59.919】  Error T17 
+抛出信息：NPOIHelper.ReadSiteWorkSheet 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_4wkC_20251103104835976.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteWorkSheet(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 append, List`1 columns, Dictionary`2 dicColumns) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 416
+【10:49:59.946】  Error T17 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_4wkC_20251103104835976.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteSurveyAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 301
+【10:49:59.973】  Error T17 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_4wkC_20251103104835976.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteSurveyAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 301
+【10:52:34.303】  Error T30 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_tg1i_20251103105218014.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadPreWorkAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 colStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 626
+【10:52:34.350】  Error T30 
+抛出信息：NPOIHelper.ReadSiteWorkSheet 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_tg1i_20251103105218014.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteWorkSheet(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 append, List`1 columns, Dictionary`2 dicColumns) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 416
+【10:52:34.393】  Error T30 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_tg1i_20251103105218014.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteSurveyAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 301
+【10:52:34.411】  Error T30 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：DirectoryNotFoundException 
+异常信息：Could not find a part of the path 'D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.WebApi\TE000006\Construction_Content_Init\5. Site Works-R5-Hydra-Fung（初始化工程任务）_tg1i_20251103105218014.xlsx'. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteSurveyAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 301

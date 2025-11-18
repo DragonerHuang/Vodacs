@@ -1,0 +1,17 @@
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\bin\Release\net8.0\Vodace.Core.deps.json
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\bin\Release\net8.0\Vodace.Core.runtimeconfig.json
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\bin\Release\net8.0\Vodace.Core.dll
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\bin\Release\net8.0\Vodace.Core.pdb
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\bin\Release\net8.0\Vodace.Entity.dll
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\bin\Release\net8.0\Vodace.Entity.pdb
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\obj\Release\net8.0\Vodace.Core.csproj.AssemblyReference.cache
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\obj\Release\net8.0\Vodace.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\obj\Release\net8.0\Vodace.Core.AssemblyInfoInputs.cache
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\obj\Release\net8.0\Vodace.Core.AssemblyInfo.cs
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\obj\Release\net8.0\Vodace.Core.csproj.CoreCompileInputs.cache
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\obj\Release\net8.0\Vodace.C.BF76EE0A.Up2Date
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\obj\Release\net8.0\Vodace.Core.dll
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\obj\Release\net8.0\refint\Vodace.Core.dll
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\obj\Release\net8.0\Vodace.Core.pdb
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\obj\Release\net8.0\Vodace.Core.genruntimeconfig.cache
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\obj\Release\net8.0\ref\Vodace.Core.dll

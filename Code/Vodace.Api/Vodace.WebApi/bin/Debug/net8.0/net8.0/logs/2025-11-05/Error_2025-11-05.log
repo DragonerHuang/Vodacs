@@ -1,0 +1,21 @@
+【18:29:59.932】  Error T36 
+抛出信息：Biz_Rolling_Program_Site_ContentService.Add 
+异常类型：ArgumentNullException 
+异常信息：Value cannot be null. (Parameter 's') 
+堆栈调用：
+   at System.Int32.Parse(String s)
+   at Vodace.Sys.Services.Biz_Rolling_Program_Site_ContentService.Add(RollingProgramSiteContentAddDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\Biz\Partial\Biz_Rolling_Program_Site_ContentService.cs:line 89
+【18:30:19.531】  Error T39 
+抛出信息：Biz_Rolling_Program_Site_ContentService.Add 
+异常类型：ArgumentNullException 
+异常信息：Value cannot be null. (Parameter 's') 
+堆栈调用：
+   at System.Int32.Parse(String s)
+   at Vodace.Sys.Services.Biz_Rolling_Program_Site_ContentService.Add(RollingProgramSiteContentAddDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\Biz\Partial\Biz_Rolling_Program_Site_ContentService.cs:line 89
+【18:30:51.017】  Error T41 
+抛出信息：Biz_Rolling_Program_Site_ContentService.Add 
+异常类型：ArgumentNullException 
+异常信息：Value cannot be null. (Parameter 's') 
+堆栈调用：
+   at System.Int32.Parse(String s)
+   at Vodace.Sys.Services.Biz_Rolling_Program_Site_ContentService.Add(RollingProgramSiteContentAddDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\Biz\Partial\Biz_Rolling_Program_Site_ContentService.cs:line 89

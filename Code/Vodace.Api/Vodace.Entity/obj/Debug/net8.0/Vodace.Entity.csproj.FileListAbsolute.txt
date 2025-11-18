@@ -1,0 +1,12 @@
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Entity\bin\Debug\net8.0\Vodace.Entity.deps.json
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Entity\bin\Debug\net8.0\Vodace.Entity.dll
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Entity\bin\Debug\net8.0\Vodace.Entity.pdb
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Entity\obj\Debug\net8.0\Vodace.Entity.csproj.AssemblyReference.cache
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Entity\obj\Debug\net8.0\Vodace.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Entity\obj\Debug\net8.0\Vodace.Entity.AssemblyInfoInputs.cache
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Entity\obj\Debug\net8.0\Vodace.Entity.AssemblyInfo.cs
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Entity\obj\Debug\net8.0\Vodace.Entity.csproj.CoreCompileInputs.cache
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Entity\obj\Debug\net8.0\Vodace.Entity.dll
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Entity\obj\Debug\net8.0\refint\Vodace.Entity.dll
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Entity\obj\Debug\net8.0\Vodace.Entity.pdb
+D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Entity\obj\Debug\net8.0\ref\Vodace.Entity.dll

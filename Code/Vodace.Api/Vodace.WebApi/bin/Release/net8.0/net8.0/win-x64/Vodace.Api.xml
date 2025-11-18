@@ -1,0 +1,2623 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Vodace.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Vodace.Api.Controllers.Hubs.HomePageMessageHub.#ctor(Vodace.Core.CacheManager.ICacheService)">
+            <summary>
+            构造 注入
+            </summary>
+        </member>
+        <member name="M:Vodace.Api.Controllers.Hubs.HomePageMessageHub.OnConnectedAsync">
+            <summary>
+            建立连接时异步触发
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Api.Controllers.Hubs.HomePageMessageHub.OnDisconnectedAsync(System.Exception)">
+            <summary>
+            离开连接时异步触发
+            </summary>
+            <param name="ex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Api.Controllers.Hubs.HomePageMessageHub.GetCnnectionIds(System.String)">
+            <summary>
+            根据用户名获取所有的客户端
+            </summary>
+            <param name="username"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Api.Controllers.Hubs.HomePageMessageHub.SendHomeMessage(System.String,System.String,System.String)">
+            <summary>
+            发送给指定的人
+            </summary>
+            <param name="username">sys_user表的登陆帐号</param>
+            <param name="message">发送的消息</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Api.Controllers.Hubs.HomePageMessageHub.UserOffline">
+            <summary>
+            断开连接
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Vodace.Api.Controllers.MqDataHandle.DataHandle">
+            <summary>
+            数据处理
+            </summary>
+        </member>
+        <member name="M:Vodace.Api.Controllers.MqDataHandle.DataHandle.#ctor">
+            <summary>
+            构造  可注入service服务执行db
+            </summary>
+        </member>
+        <member name="M:Vodace.Api.Controllers.MqDataHandle.DataHandle.AlarmData(System.String)">
+            <summary>
+            报警数据处理
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Vodace.Api.Controllers.OSS.AliOSSController">
+            <summary>
+            neuget包aliyun-net-sdk-core
+            </summary>
+        </member>
+        <member name="M:Vodace.Api.Controllers.Sys.Partial.FilesController.ViewThumbnailFileByteByIdAsync(System.Guid)">
+            <summary>
+            预览缩略图图片
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Api.Controllers.Sys.Partial.Sys_FileController.GetDirectoryContentsxx(System.String)">
+            <summary>
+            读取文件夹下的所有文件及文件夹
+            </summary>
+            <param name="strDirectoryPath">读取文件夹的路径</param>
+            <returns></returns>
+            <remarks>
+            参数说明：<br/>
+            strDirectoryPath：需要访问的文件地址，默认提取运行目录下地址<br/>
+            <br/>
+            返回参数结果说明：<br/>
+            Name：文件(夹)名称<br/>
+            FileSize：文件大小<br/>
+            FileType：文件类型<br/>
+            FullPath：文件(夹)完整路径<br/>
+            IsDirectory：是否目录<br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Api.Controllers.Sys.Partial.Sys_FileController.GetDirectoryContents(Vodace.Entity.DomainModels.GetFileInfoDto)">
+            <summary>
+            读取文件夹下的所有文件及文件夹
+            </summary>
+            <param name="strDirectoryPath">读取文件夹的路径</param>
+            <param name="qn_no">qn编码</param>
+            <returns></returns>
+            <remarks>
+            参数说明：<br/>
+            strDirectoryPath：需要访问的文件地址，默认提取运行目录下地址<br/>
+            qn_no：报价编码<br/>
+            qn_id：报价Id<br/>
+            <br/>
+            返回参数结果说明：<br/>
+            Name：文件(夹)名称<br/>
+            FileSize：文件大小<br/>
+            FileType：文件类型<br/>
+            FullPath：文件(夹)完整路径<br/>
+            IsDirectory：是否目录<br/>
+            </remarks>
+        </member>
+        <member name="T:Vodace.Api.SwaggerDocTag">
+            <summary>
+            Swagger注释帮助类
+            </summary>
+        </member>
+        <member name="M:Vodace.Api.SwaggerDocTag.Apply(Microsoft.OpenApi.Models.OpenApiDocument,Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)">
+            <summary>
+            添加附加注释
+            </summary>
+            <param name="swaggerDoc"></param>
+            <param name="context"></param>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Confirmed_OrderController.GetCoPageList(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.CoSearchDto})">
+            <summary>
+            CO分页查询
+            </summary>
+            <param name="dtoSearchInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Confirmed_OrderController.ConfirmOrder(Vodace.Entity.DomainModels.ConfirmDto)">
+            <summary>
+            确认报价
+            </summary>
+            <param name="dtoInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Confirmed_OrderController.UnConfirmOrder(System.Guid)">
+            <summary>
+            取消确认报价
+            </summary>
+            <param name="qnId">报价id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Confirmed_OrderController.UploadCOFile(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile})">
+            <summary>
+            确认订单文件上传
+            </summary>
+            <param name="lstFiles"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Confirmed_OrderController.GetCOByIdAsync(System.Guid)">
+            <summary>
+            根据id获取co详细信息
+            </summary>
+            <param name="coId">co的id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Confirmed_OrderController.EditCoAsync(Vodace.Entity.DomainModels.CoInputDto)">
+            <summary>
+            修改co信息
+            </summary>
+            <param name="dtoInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Confirmed_OrderController.CountCOAmt">
+            <summary>
+            统计确认订单的确认金额
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Confirmed_OrderController.GetStatus">
+            <summary>
+            获取确认订单下的状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Contact_RelationshipController.AddContactRelationship(Vodace.Entity.DomainModels.ContactRelationshipAddDto)">
+            <summary>
+            新增联络人关系
+            </summary>
+            <param name="m_Project"></param>
+            <returns></returns>
+            <remarks>
+            请求参数说明：<br/>
+            contact_id：联系人ID<br/>
+            company_id：公司ID<br/>
+            role_id：角色id<br/>
+            relation_type：联络类型：0：报价联络人、1：公司联系人、2：组织架构，3：合约组织架构人员<br/>
+            relation_id：对应的表ID（报价ID、公司联系人ID、组织ID....）<br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Contact_RelationshipController.DelContactRelationship(System.Guid)">
+            <summary>
+            删除联络人关系
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+            <remarks>实际为软删除</remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Contact_RelationshipController.GetContactRelationshipList(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.ContactRelationshipDto})">
+            <summary>
+            联络人关系列表
+            </summary>
+            <param name="searchDto"></param>
+            <returns></returns>
+            <remarks>
+            请求参数说明：<br/>
+            company_id：公司ID<br/>
+            contact_id：联系人ID<br/>
+            role_id：角色id<br/>
+            relation_type：联络类型：0：报价联络人、1：公司联系人、2：组织架构，3：合约组织架构人员<br/>
+            mail_to：发送邮件类型，Gen，Pay ，Safe ，PD， ABWF ，EL， FS（多选，用,号隔开）<br/>
+            relation_id：对应的表ID（报价ID、公司联系人ID、组织ID....）<br/><br/>
+            
+            返回参数说明：<br/>
+            strCompanyName：公司名称 <br/>
+            name_eng：联络人名称（英文） <br/>
+            name_cht：联络人名称（中文） <br/>
+            strOrganizationName：职位/组织 名称 <br/>
+            strDepartmentName：部门名称 <br/>
+            tel：电话 <br/>
+            fax：传真 <br/>
+            email：邮箱 <br/>
+            role_name：角色名称 <br/>
+            relation_type：联络类型：0：报价联络人、1：公司联系人、2：组织架构，3：合约组织架构人员<br/>
+            title：头衔、职称<br/>
+            strDistrictNameEng：行政区域名称（英文） <br/>
+            strDistrictNameCht：行政区域名称（中文） <br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Contact_RelationshipController.GetContactRelationshipOtherList(Vodace.Entity.DomainModels.ContactInfoDto)">
+            <summary>
+            同时获取部门、组织、职位、联系人列表
+            </summary>
+            <param name="m_Project"></param>
+            <returns></returns>
+            <remarks>
+            返回参数说明：<br/>
+            department：部门列表<br/>
+            organization：组织列表<br/>
+            role：角色列表<br/>
+            contact：联系人列表（name_eng：英文名，name_cht：中文名）<br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Contact_RelationshipController.GetContactInfoByContactId(Vodace.Entity.DomainModels.ContactInfoDto)">
+            <summary>
+            获取联系人信息
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+            <remarks>
+            请求参数说明：<br/>
+            id：联络人Id<br/>
+            relation_type：联络类型：0：报价联络人、1：公司联系人、2：组织架构，3：合约组织架构人员<br/>
+            relation_id：对应的表ID（报价ID、公司联系人ID、组织ID....）<br/><br/>
+            
+            返回结果参数说明：<br/>
+            id：<br/>
+            company_id：Sys_Company、所属公司\一般个人<br/>
+            organization_id：组织<br/>
+            identification_no：身份证<br/>
+            name_sho：简称<br/>
+            name_eng：英文名<br/>
+            name_cht：中文名<br/>
+            name_ali：别名<br/>
+            department_id：所属部门Id<br/>
+            title：头衔、职称<br/>
+            address：地址<br/>
+            district_id：‌行政区id<br/>
+            email：邮箱<br/>
+            daily_salary：工人日薪<br/>
+            delete_status：是否删除（0：正常；1：删除；2：数据库手删除）<br/>
+            remark：备注<br/>
+            create_id：<br/>
+            create_name：<br/>
+            create_date：<br/>
+            modify_id：<br/>
+            modify_name：<br/>
+            modify_date：<br/>
+            tel：电话<br/>
+            fax：传真<br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_ContractController.AddContract(Vodace.Entity.DomainModels.ContractDto)">
+            <summary>
+            新增合约
+            </summary>
+            <param name="m_Project"></param>
+            <returns></returns>
+            <remarks>
+            exp_start_date：期望开始时间<br/>
+            act_start_date：实际开始时间<br/>
+            exp_end_date：期望结束时间<br/>
+            act_end_date：实际结束时间<br/>
+            id：报价编码<br/>
+            po_id：采购单ID<br/>
+            project_id：项目ID<br/>
+            contract_no：合约编码<br/>
+            name_sho：合约简称<br/>
+            name_eng：合约英文名<br/>
+            name_cht：合约中文名<br/>
+            name_ali：合约别名<br/>
+            delete_status：是否删除（0：正常；1：删除；2：数据库手删除）<br/>
+            remark：备注<br/>
+            create_date：创建时间<br/>
+            title：合同标题<br/>
+            category：合同类别<br/>
+            tender_type：投标类型<br/>
+            ref_no：合同编号/投标参考编号<br/>
+            vo_wo_type：vo和wo类型<br/>
+            master_id：上一层级合约id<br/>
+            company_id：所属公司id<br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_ContractController.DelContract(System.Guid)">
+            <summary>
+            删除合约
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+            <remarks>实际为软删除</remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_ContractController.EditContract(Vodace.Entity.DomainModels.ContractDto)">
+            <summary>
+            修改合约
+            </summary>
+            <param name="m_Project"></param>
+            <returns></returns>
+            <remarks>
+            exp_start_date：期望开始时间<br/>
+            act_start_date：实际开始时间<br/>
+            exp_end_date：期望结束时间<br/>
+            act_end_date：实际结束时间<br/>
+            id：报价编码<br/>
+            po_id：采购单ID<br/>
+            project_id：项目ID<br/>
+            contract_no：合约编码<br/>
+            name_sho：合约简称<br/>
+            name_eng：合约英文名<br/>
+            name_cht：合约中文名<br/>
+            name_ali：合约别名<br/>
+            delete_status：是否删除（0：正常；1：删除；2：数据库手删除）<br/>
+            remark：备注<br/>
+            create_date：创建时间<br/>
+            title：合同标题<br/>
+            category：合同类别<br/>
+            tender_type：投标类型<br/>
+            ref_no：合同编号/投标参考编号<br/>
+            vo_wo_type：vo和wo类型<br/>
+            master_id：上一层级合约id<br/>
+            company_id：所属公司id<br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_ContractController.GetContractById(System.Guid)">
+            <summary>
+            根据ID获取合约信息
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+            <remarks>
+            返回结果参数说明：<br />
+            strSiteName：合约施工地点，多个之间以逗号之后区分<br/>
+            strQuotationNo：报价编码<br/>
+            strProjectName：项目名称<br/>
+            strCompanyName：公司名称<br/>
+            exp_start_date：期望开始时间<br/>
+            act_start_date：实际开始时间<br/>
+            exp_end_date：期望结束时间<br/>
+            act_end_date：实际结束时间<br/>
+            id：报价编码<br/>
+            po_id：采购单ID<br/>
+            project_id：项目ID<br/>
+            contract_no：合约编码<br/>
+            name_sho：合约简称<br/>
+            name_eng：合约英文名<br/>
+            name_cht：合约中文名<br/>
+            name_ali：合约别名<br/>
+            delete_status：是否删除（0：正常；1：删除；2：数据库手删除）<br/>
+            remark：备注<br/>
+            create_date：创建时间<br/>
+            title：合同标题<br/>
+            category：合同类别<br/>
+            tender_type：投标类型<br/>
+            ref_no：合同编号/投标参考编号<br/>
+            vo_wo_type：vo和wo类型<br/>
+            master_id：上一层级合约id<br/>
+            company_id：所属公司id<br/>
+            strMasterName：上级合约名称<br/>
+            strMasterNo：上级合约编码<br/>
+            project_no：项目编码<br/>
+            create_id：创建人ID<br/>
+            create_name：创建人名称<br/>
+            modify_id：修改人ID<br/>
+            modify_name：修改人名称<br/>
+            modify_date：修改时间<br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_ContractController.GetContractList(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.ContractSearchDto})">
+            <summary>
+            合约列表
+            </summary>
+            <param name="searchDto"></param>
+            <returns></returns>
+            <remarks>
+            返回结果参数说明：<br />
+            strSiteName：合约施工地点，多个之间以逗号之后区分<br/>
+            strQuotationNo：报价编码<br/>
+            strProjectName：项目名称<br/>
+            strCompanyName：公司名称<br/>
+            exp_start_date：期望开始时间<br/>
+            act_start_date：实际开始时间<br/>
+            exp_end_date：期望结束时间<br/>
+            act_end_date：实际结束时间<br/>
+            id：报价编码<br/>
+            po_id：采购单ID<br/>
+            project_id：项目ID<br/>
+            contract_no：合约编码<br/>
+            name_sho：合约简称<br/>
+            name_eng：合约英文名<br/>
+            name_cht：合约中文名<br/>
+            name_ali：合约别名<br/>
+            delete_status：是否删除（0：正常；1：删除；2：数据库手删除）<br/>
+            remark：备注<br/>
+            create_date：创建时间<br/>
+            title：合同标题<br/>
+            category：合同类别<br/>
+            tender_type：投标类型<br/>
+            ref_no：合同编号/投标参考编号<br/>
+            vo_wo_type：vo和wo类型<br/>
+            master_id：上一层级合约id<br/>
+            company_id：所属公司id<br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_ContractController.GetContractAllName">
+            <summary>
+            获取合约名称及ID列表
+            </summary>
+            <returns></returns>
+            <remarks>
+            返回结果字段及说明：<br/>
+            id: 合约ID（GUID）<br />
+            name_eng: 合约英文名 <br />
+            name_cht: 合约中文名 <br />
+            contract_no: 合约编码<br />
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_ContractController.SetContractMasterId(Vodace.Entity.DomainModels.SetContractMasterDto)">
+            <summary>
+            设置原合约编码/新增vo/wo
+            </summary>
+            <param name="m_Project"></param>
+            <returns></returns>
+            <remarks>
+            请求参数说明：<br/>
+            id：合同id (必填)<br/>
+            master_id：需要更改合同的上级合约id（原合约编码id）<br/>
+            vo_wo_type：新增的合约类型：VO、WO
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_ContractController.GetChildContractList(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.ChildContractSearchDto})">
+            <summary>
+            子级合约（vo/wo）列表
+            </summary>
+            <param name="searchDto"></param>
+            <returns></returns>
+            <remarks>
+            请求参数说明：<br/>
+            contract_id：合约id<br/>
+            quotation_id：报价id<br/>
+            qn_no：报价编码<br/>
+            contract_name：合约名称<br/>
+            contract_no：合约编码<br/>
+            title：合约名称<br/>
+            vo_wo_type：子级合约类型（vo、wo）(必填)<br/>
+            
+            返回结果参数说明：<br />
+            contract_id：合约id<br/>
+            quotation_id：报价id<br/>
+            qn_no：报价编码<br/>
+            contract_no：合约编码<br/>
+            vo_wo_type：vo、wo类型<br/>
+            name_cht：合约中文名<br/>
+            name_eng：合约英文名<br/>
+            confirm_amt：确认报价<br/>
+            qn_amt：内部报价金额<br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Contract_DetailsController.GetContractData(System.Guid)">
+            <summary>
+            获取合同资料
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Contract_DetailsController.SaveContractData(Vodace.Entity.DomainModels.ContractDetailDataDto)">
+            <summary>
+            保存合同资料
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Contract_DetailsController.UploadAddendumFiles(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile})">
+            <summary>
+            投标补充-附件文档上传
+            </summary>
+            <param name="litFiles"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Contract_DetailsController.GetTenderData(System.Guid)">
+            <summary>
+            获取标书资料
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Contract_DetailsController.SaveTenderData(Vodace.Entity.DomainModels.TenderDataDto)">
+            <summary>
+            保存标书资料
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_ProjectController.AddProject(Vodace.Entity.DomainModels.ProjectDto)">
+            <summary>
+            新增项目
+            </summary>
+            <param name="m_Project"></param>
+            <returns></returns>
+            <remarks>
+            请求参数说明：<br/>
+            id: 项目ID（GUID）(可为null)<br />
+            company_id: 所属公司id(GUID)(可为null)<br />
+            master_id: 所属上级项目ID(GUID)(可为null)<br />
+            original_id: 上级新增项目ID（vo/wo）(GUID)(可为null)<br />
+            pro_type_id: 项目状态代码(int)<br />
+            customer_id: 客户id(GUID)(可为null)<br />
+            project_no: 项目编号(必填项)<br />
+            name_sho: 项目简称<br />
+            name_eng: 项目英文名(必填项)<br />
+            name_cht: 项目中文名(必填项)<br />
+            name_ali: 项目别名<br />
+            exp_start_date: 期望开始时间(DateTime)(可为null)<br />
+            act_start_date: 实际开始时间(DateTime)(可为null)<br />
+            exp_end_date: 期望结束时间(DateTime)(可为null)<br />
+            act_end_date: 实际结束时间(DateTime)(可为null)<br />
+            delete_status: 是否删除（0：正常；1：删除；2：数据库删除)<br/>
+            create_date: 创建时间(DateTime)(可为null)<br />
+            remark: 备注<br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_ProjectController.DelProject(System.Guid)">
+            <summary>
+            删除项目
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+            <remarks>实际为软删除</remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_ProjectController.EditProject(Vodace.Entity.DomainModels.ProjectDto)">
+            <summary>
+            修改项目
+            </summary>
+            <param name="m_Project"></param>
+            <returns></returns>
+            <remarks>
+            请求参数说明：<br/>
+            id: 项目ID（GUID）(可为null)<br />
+            company_id: 所属公司id(GUID)(可为null)<br />
+            master_id: 所属上级项目ID(GUID)(可为null)<br />
+            original_id: 上级新增项目ID（vo/wo）(GUID)(可为null)<br />
+            pro_type_id: 项目状态代码(int)<br />
+            customer_id: 客户id(GUID)(可为null)<br />
+            project_no: 项目编号(必填项)<br />
+            name_sho: 项目简称<br />
+            name_eng: 项目英文名(必填项)<br />
+            name_cht: 项目中文名(必填项)<br />
+            name_ali: 项目别名<br />
+            exp_start_date: 期望开始时间(DateTime)(可为null)<br />
+            act_start_date: 实际开始时间(DateTime)(可为null)<br />
+            exp_end_date: 期望结束时间(DateTime)(可为null)<br />
+            act_end_date: 实际结束时间(DateTime)(可为null)<br />
+            delete_status: 是否删除（0：正常；1：删除；2：数据库删除)<br/>
+            create_date: 创建时间(DateTime)(可为null)<br />
+            remark: 备注<br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_ProjectController.GetProjectList(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.SearchProjectDto})">
+            <summary>
+            获取项目列表
+            </summary>
+            <param name="loadData"></param>
+            <returns></returns>
+            <remarks>
+            返回结果字段及说明：<br/>
+            id：项目主键<br/>
+            project_no：项目编号<br/>
+            name_eng：项目英文名<br/>
+            name_cht：项目中文名<br/>
+            exp_start_date：项目期望开始时间<br/>
+            exp_end_date：项目期望结束时间<br/>
+            strSiteName：统合施工地点集，多个之间以逗号之间区别<br/>
+            strContractName：项目合约名集，多个之间以逗号之间区别<br/>
+            intContractProgress：合约进度<br/>
+            children.id：项目关联的合约id<br/>
+            children.contract_no：项目关联的合约编号<br/>
+            children.name_eng：合约英文名<br/>
+            children.name_cht：合约中文名<br/>
+            children.issue_date：合约发行日期<br/>
+            children.end_date：合约截止日期<br/>
+            children.sites.name_eng：合约施工地点英文名<br/>
+            children.sites.name_cht：合约施工地点中文名
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_ProjectController.GetProjectContractList(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.ContractSearchDto})">
+            <summary>
+            获取项目合约列表
+            </summary>
+            <param name="searchDto"></param>
+            <returns></returns>
+            <remarks>
+            返回结果参数说明：<br />
+            strSiteName：合约施工地点，多个之间以逗号之后区分<br/>
+            strQuotationNo：报价编码<br/>
+            strProjectName：项目名称<br/>
+            strCompanyName：公司名称<br/>
+            exp_start_date：期望开始时间<br/>
+            act_start_date：实际开始时间<br/>
+            exp_end_date：期望结束时间<br/>
+            act_end_date：实际结束时间<br/>
+            id：报价编码<br/>
+            po_id：采购单ID<br/>
+            project_id：项目ID<br/>
+            contract_no：合约编码<br/>
+            name_sho：合约简称<br/>
+            name_eng：合约英文名<br/>
+            name_cht：合约中文名<br/>
+            name_ali：合约别名<br/>
+            delete_status：是否删除（0：正常；1：删除；2：数据库手删除）<br/>
+            remark：备注<br/>
+            create_date：创建时间<br/>
+            title：合同标题<br/>
+            category：合同类别<br/>
+            tender_type：投标类型<br/>
+            ref_no：合同编号/投标参考编号<br/>
+            vo_wo_type：vo和wo类型<br/>
+            master_id：上一层级合约id<br/>
+            company_id：所属公司id<br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_ProjectController.GetProjectById(System.Guid)">
+            <summary>
+            获取项目详情
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_ProjectController.GetProjectAllName">
+            <summary>
+            获取项目名称及ID列表
+            </summary>
+            <returns></returns>
+            <remarks>
+            返回结果字段及说明：<br/>
+            id: 项目ID（GUID）<br />
+            name_eng: 项目英文名 <br />
+            name_cht: 项目中文名 <br />
+            project_no: 项目编码<br />
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_ProjectController.GetProjectStatistics">
+            <summary>
+            首页项目统计
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+            <remarks>
+            返回结果字段及说明：<br/>
+            intTotalProjects：项目总数<br/>
+            intOngoingProjects：进行中项目数<br/>
+            intCompletedProjects：已完成项目数<br/>
+            doubleGeneralIncome：总收入<br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_ProjectController.GetProjectDownListAsync(System.String)">
+            <summary>
+            获取项目下拉列表
+            </summary>
+            <returns></returns>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_QuotationController.AddContractUploadAsync(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile})">
+            <summary>
+            合同信息创建时上传文件接口
+            </summary>
+            <param name="litFiles"></param>
+            <param name="strFileType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_QuotationController.AddQn(Vodace.Entity.DomainModels.AddQnRequestDto)">
+            <summary>
+            创建报价
+            </summary>
+            <param name="addQnRequestDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_QuotationController.EditQn(Vodace.Entity.DomainModels.EditQnRequestDto)">
+            <summary>
+            修改报价
+            </summary>
+            <param name="editQnRequestDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_QuotationController.DeleteQn(System.Guid)">
+            <summary>
+            删除报价
+            </summary>
+            <param name="qnId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_QuotationController.GetQnPageData(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.QnSearchDto})">
+            <summary>
+            获取报价列表（分页）
+            </summary>
+            <param name="dtoQnSearchInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_QuotationController.GetQnSumData">
+            <summary>
+            获取报价统计
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_QuotationController.GetQnDetailById(System.Guid)">
+            <summary>
+            获取报价详细信息
+            </summary>
+            <param name="queryQn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_QuotationController.GetMasterContractDropList(System.Guid)">
+            <summary>
+            获取父项报价下拉列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_QuotationController.GetChildContractDropList(System.Guid)">
+            <summary>
+            获取子项报价下拉列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_QuotationController.UploadSubmitFile(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile},System.Int32,System.Guid)">
+            <summary>
+            上传提交文件
+            </summary>
+            <param name="lstFiles">文件集合</param>
+            <param name="intSubmitType">文件类型（0：财务类文件、1：技术类文件）</param>
+            <param name="guidQnId">所属qn的id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_QuotationController.DownloadSubmitFile(System.Guid)">
+            <summary>
+            下载提交文件
+            </summary>
+            <param name="guidQnId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_QuotationController.SubmitQnFiles(System.Guid)">
+            <summary>
+            提交报价文件
+            </summary>
+            <param name="guidQnId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_QuotationController.GetStatuCodeByQnId(System.Guid)">
+            <summary>
+            获取报价状态下拉列表
+            </summary>
+            <param name="qnId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_QuotationController.GetSumitFilesAync(System.Guid,System.Int32)">
+            <summary>
+            获取提交文件列表
+            </summary>
+            <param name="qn_id">所属qn的id</param>
+            <param name="type">文件类型（0：财务类文件、1：技术类文件）</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_QuotationController.DeleteSumitFileAsync(System.Guid)">
+            <summary>
+            根据id删除提交文件
+            </summary>
+            <param name="id">id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_QuotationController.SumbitFinishFilesAsync(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile},System.Guid)">
+            <summary>
+            提交完成文件
+            </summary>
+            <param name="id">id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_DeadlineController.GetDeadLineListPageAsync(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.QnDeadlineSearchDto})">
+            <summary>
+            分页查询
+            </summary>
+            <param name="dtoQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_DeadlineController.GetDeadLineListAsync(Vodace.Entity.DomainModels.QnDeadlineSearchDto)">
+            <summary>
+            查询列表（不分页）
+            </summary>
+            <param name="dtoQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_DeadlineController.EditDealLineAsync(Vodace.Entity.DomainModels.EditQnDeadlineDto)">
+            <summary>
+            编辑期限
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_HeadController.GetContactDownListAsync(System.Guid)">
+            <summary>
+            负责人列表中人员下拉列表
+            </summary>
+            <param name="qn_id">报价id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_HeadController.GetHeadListAsync(System.Guid)">
+            <summary>
+            获取负责人列表
+            </summary>
+            <param name="qn_id">报价的id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_HeadController.EditHeadAsync(Vodace.Entity.DomainModels.QnHeadInputDto)">
+            <summary>
+            编辑负责人
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_InterviewController.GetQnInterviewPageAsync(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.QnInterviewSearchDto})">
+            <summary>
+            查询招标面试列表（分页）
+            </summary>
+            <param name="pageInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_InterviewController.GetQnInterviewAsync(Vodace.Entity.DomainModels.QnInterviewSearchDto)">
+            <summary>
+            查询招标面试列表
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_InterviewController.UpLoadFinishFile(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile})">
+            <summary>
+            上传完成文件，放置在临时目录
+            </summary>
+            <param name="files"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_InterviewController.AddQnInterviewAsync(Vodace.Entity.DomainModels.AddQnInterview)">
+            <summary>
+            创建招标面试
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_InterviewController.EditQnInterviewAsync(Vodace.Entity.DomainModels.EditQnInterview)">
+            <summary>
+            编辑招标面试
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_InterviewController.DeleteQnInterviewAsync(System.Guid)">
+            <summary>
+            删除招标面试
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_InterviewController.EditReplyDateAsync(Vodace.Entity.DomainModels.QnInterviewSearchDto)">
+            <summary>
+            编辑回复日期
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_QAController.GetListByPage(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.QuotationQA_Query})">
+            <summary>
+            获取分页列表
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_QAController.AddData(Vodace.Entity.DomainModels.QuotationQADto)">
+            <summary>
+            新增问答
+            </summary>
+            <param name="quotationQADto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_QAController.AddDataWithFile(Vodace.Entity.DomainModels.QuotationQAWithFileAddDto,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            新增问答同上传文件一起提交
+            </summary>
+            <param name="quotationQADto"></param>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_QAController.EditDataWithFile(Vodace.Entity.DomainModels.QuotationQAWithFileEditDto,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            编辑问答同上传一起提交
+            </summary>
+            <param name="quotationQADto"></param>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_QAController.EditData(Vodace.Entity.DomainModels.QuotationQADto)">
+            <summary>
+            编辑问答
+            </summary>
+            <param name="quotationQADto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_QAController.DelData(System.Guid)">
+            <summary>
+            删除问答
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_QAController.UploadQAFile(Microsoft.AspNetCore.Http.IFormFile,System.Int32,System.Guid)">
+            <summary>
+            上传问答文件
+            </summary>
+            <param name="file">文件</param>
+            <param name="intSubmitType">问答类型（0：预审问答；1：投标问答）</param>
+            <param name="guidQaId"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Vodace.Sys.Controllers.Biz_Quotation_QAController.DownloadSysQAFile(System.Guid,System.Int32)" -->
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_QAController.DownLoadFiles(System.Guid,System.Int32)">
+            <summary>
+            下载全部问答文件(压缩包)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_QAController.AddQADataAsync(Vodace.Entity.DomainModels.QuotationQAWithFileAddDto)">
+            <summary>
+            新增问答记录
+            </summary>
+            <param name="quotationQADto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_QAController.EditQADataAsync(Vodace.Entity.DomainModels.EditQuotationQADto)">
+            <summary>
+            修改问答记录
+            </summary>
+            <param name="quotationQADto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_QAController.GetQADataByIdAsync(System.Guid)">
+            <summary>
+            根据id获取问答记录
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_QAController.UploadQAFilesAsync(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile},System.Guid,System.Int32)">
+            <summary>
+            问答文件上传
+            </summary>
+            <param name="lstFiles">文件</param>
+            <param name="type">问答类型（0：预审问答；1：投标问答）</param>
+            <param name="qn_id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_QAController.UploadQAFinishFilesAsync(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile},System.Guid,System.Int32)">
+            <summary>
+            问答完成文件上传
+            </summary>
+            <param name="lstFiles">文件</param>
+            <param name="type">问答类型（0：预审问答；1：投标问答）</param>
+            <param name="qn_id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_QAController.DownLoadQAFilesByIdAsync(System.Guid)">
+            <summary>
+            根据id下载问答文件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_QAController.DownLoadAllQAFilesAsync(System.Guid,System.Int32)">
+            <summary>
+            下载全部问答
+            </summary>
+            <param name="type">问答类型（0：预审问答；1：投标问答）</param>
+            <param name="qn_id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_RecordController.AddQuotationRecord(Vodace.Entity.DomainModels.QuotationRecordAddDto,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            新增报价单记录
+            </summary>
+            <param name="m_Project"></param>
+            <returns></returns>
+            <remarks>
+            请求接口参数说明：<br/>
+            version：版本号(必填项)<br/>
+            amount：报价金额(HK$)<br/>
+            file_name：文档名<br/>
+            qn_id: 报价ID（guid）(必填项)<br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_RecordController.DelQuotationRecord(System.Guid)">
+            <summary>
+            删除报价单记录
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+            <remarks>实际为软删除</remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_RecordController.EditQuotationRecord(Vodace.Entity.DomainModels.QuotationRecordEditDto,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            修改报价单记录
+            </summary>
+            <param name="dtoQuotationRecord"></param>
+            <returns></returns>
+            <remarks>
+            请求接口参数说明：<br/>
+            id：报价单记录ID(必填项)<br/>
+            version：版本号(必填项)<br/>
+            amount：报价金额(HK$)<br/>
+            file_name：文档名<br/>
+            qn_id: 报价ID（guid）(必填项)<br/>
+            delete_status： 是否删除（0：正常；1：删除；2：数据库手删除）后端接口处理<br/>
+            create_date： 创建时间 后端接口处理<br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_RecordController.GetQuotationRecordList(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.SearchQuotationRecordDto})">
+            <summary>
+            获取报价单记录
+            </summary>
+            <param name="dtoSearchInput"></param>
+            <returns></returns>
+            <remarks>
+            请求接口参数说明：<br/>
+            id：报价单记录ID(必填项)<br/>
+            version：版本号(必填项)<br/>
+            amount：报价金额(HK$)<br/>
+            file_name：文档名<br/>
+            qn_id: 报价ID（guid）(必填项)<br/>
+            delete_status： 是否删除（0：正常；1：删除；2：数据库手删除）后端接口处理<br/>
+            create_date： 创建时间 后端接口处理<br/>
+            qn_no：报价编码<br/>
+            status_code：合约状态<br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_RecordController.GetQuotationRecordById(System.Guid)">
+            <summary>
+            根据ID获取报价单详情
+            </summary>
+            <param name="dtoSearchInput"></param>
+            <returns></returns>
+            <remarks>
+            请求接口参数说明：<br/>
+            id：报价单记录ID(必填项)<br/>
+            version：版本号(必填项)<br/>
+            amount：报价金额(HK$)<br/>
+            file_name：文档名<br/>
+            qn_id: 报价ID（guid）(必填项)<br/>
+            delete_status： 是否删除（0：正常；1：删除；2：数据库手删除）后端接口处理<br/>
+            create_date： 创建时间 后端接口处理<br/>
+            qn_no：报价编码<br/>
+            status_code：合约状态<br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_Record_ExcelController.AddQuotationRecordExcel(Vodace.Entity.DomainModels.QuotationRecordExcelDto)">
+            <summary>
+            新增报价单详情信息
+            </summary>
+            <param name="m_Project"></param>
+            <returns></returns>
+            <remarks>
+            quotation_record_id：报价单ID（Biz_Quotation_Record.id）<br/>
+            sheet_name：Excel Sheet名称<br/>
+            item_code：项目名称<br/>
+            item_description：内容<br/>
+            quantity：数量<br/>
+            unit：单位<br/>
+            unit_rage：单价<br/>
+            amount：银码<br/>
+            remark：备注<br/>
+            line_number：行号（系统自动生成）
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_Record_ExcelController.DelQuotationRecordExcel(System.Guid)">
+            <summary>
+            删除报价单详情信息
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+            <remarks>实际为软删除</remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_Record_ExcelController.EditQuotationRecordExcel(Vodace.Entity.DomainModels.QuotationRecordExcelEditDto)">
+            <summary>
+            修改报价单详情信息
+            </summary>
+            <param name="m_Project"></param>
+            <returns></returns>
+            <remarks>
+            quotation_record_id：报价单ID（Biz_Quotation_Record.id）<br/>
+            sheet_name：Excel Sheet名称<br/>
+            item_code：项目名称<br/>
+            item_description：内容<br/>
+            quantity：数量<br/>
+            unit：单位<br/>
+            unit_rage：单价<br/>
+            amount：银码<br/>
+            remark：备注<br/>
+            line_number：行号（系统自动生成）<br/>
+            id：报价单详情Excel ID
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_Record_ExcelController.GetQuotationRecordExcelList(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.SearchQuotationRecordExcelInputDto})">
+            <summary>
+            报价单详情信息
+            </summary>
+            <param name="searchDto"></param>
+            <returns></returns>
+            <remarks>
+            请求参数说明：<br/>
+            sheet_name：Excel Sheet名称<br/>
+            item_code：项目名称<br/>
+            item_description：内容<br/>
+            qn_no：报价编码<br/>
+            <br/>
+            返回结果参数说明：<br/>
+            quotation_record_id：报价单ID（Biz_Quotation_Record.id）<br/>
+            sheet_name：Excel Sheet名称<br/>
+            item_code：项目名称<br/>
+            item_description：内容<br/>
+            quantity：数量<br/>
+            unit：单位<br/>
+            unit_rage：单价<br/>
+            amount：银码<br/>
+            remark：备注<br/>
+            line_number：行号（系统自动生成）<br/>
+            id：报价单详情Excel ID<br/>
+            version：报价单版本号<br/>
+            amount：报价金额(HK$)<br/>
+            file_name：文件名<br/>
+            qn_no：报价编码<br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_SiteController.GetQnSitePageAsync(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.QnSiteSearchDto})">
+            <summary>
+            查询现场考察列表（分页）
+            </summary>
+            <param name="pageInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_SiteController.GetQnSiteAsync(Vodace.Entity.DomainModels.QnSiteSearchDto)">
+            <summary>
+            查询现场考察列表
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_SiteController.UpLoadFinishFile(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile})">
+            <summary>
+            上传完成文件
+            </summary>
+            <param name="files"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_SiteController.AddQnSiteAsync(Vodace.Entity.DomainModels.AddQnSiteDto)">
+            <summary>
+            创建现场考察
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_SiteController.EditQnSiteAsync(Vodace.Entity.DomainModels.EditQnSiteDto)">
+            <summary>
+            编辑现场考察
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_SiteController.DeleteQnSiteAsync(System.Guid)">
+            <summary>
+            删除现场考察
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Quotation_SiteController.EditReplyDateAsync(Vodace.Entity.DomainModels.QnSiteSearchDto)">
+            <summary>
+            编辑回复日期
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_SiteController.AddSite(Vodace.Entity.DomainModels.SiteDto)">
+            <summary>
+            新增 Site
+            </summary>
+            <param name="mSiteDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_SiteController.EditSite(Vodace.Entity.DomainModels.SiteDto)">
+            <summary>
+            修改 Site
+            </summary>
+            <param name="mSiteDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_SiteController.DelSite(System.Guid)">
+            <summary>
+            删除 Site
+            </summary>
+            <param name="mSiteDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_SiteController.GetSiteList(Vodace.Entity.DomainModels.PageDataOptions)">
+            <summary>
+            获取Site信息列表
+            </summary>
+            <param name="mSiteDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_SiteController.GetSiteById(System.Guid)">
+            <summary>
+            获取站点信息
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_SiteController.GetSiteDownList">
+            <summary>
+            现场地点下拉列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_RecordController.GetSiteWorkRecordPage(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.SiteWorkRecordSearchDto})">
+            <summary>
+            分页查询工地工作记录
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_RecordController.GetSiteWorkRecordById(System.Guid)">
+            <summary>
+            根据id获取工地记录详情
+            </summary>
+            <param name="id">工地记录id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_RecordController.EditSiteWorkRecordAsync(Vodace.Entity.DomainModels.EditSiteWorkRecordDto)">
+            <summary>
+            编辑工地工作记录
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_RecordController.DeleteSiteWorkRecordByIdAsync(System.Guid)">
+            <summary>
+            删除工地工作记录
+            </summary>
+            <param name="id">工地工作记录id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_RecordController.SetProjectProgressAsync(Vodace.Entity.DomainModels.SetProgressDto)">
+            <summary>
+            设置工程进度完成百分比
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_RecordController.GetPhotoListByRecordAsync(System.Guid)">
+            <summary>
+            根据工地记录id获取图片列表
+            </summary>
+            <param name="id">工地记录id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_RecordController.GetPhotoListByTypeAsync(System.Guid,System.Int32)">
+            <summary>
+            根据工地记录id和图片类型获取图片列表
+            </summary>
+            <param name="record_id">工地记录id</param>
+            <param name="type">图片类型（6：开工前，7：施工中，8：完工后）</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_RecordController.UploadPhotoAsync(System.Guid,System.Int32,System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile})">
+            <summary>
+            根据工地记录id和图片类型获取图片列表
+            </summary>
+            <param name="record_id">工地记录id</param>
+            <param name="type">图片类型（6：开工前，7：施工中，8：完工后）</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_RecordController.GetProjectProgressTableDataAsync(System.Guid,System.Guid)">
+            <summary>
+            获取滚动计划任务进度数据
+            </summary>
+            <param name="record_id">合约id</param>
+            <param name="type">任务id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_RecordController.GetRollingProgramScheduleDataAsync(System.Guid,System.Guid)">
+            <summary>
+            获取滚动计划进度数据
+            </summary>
+            <param name="record_id">合约id</param>
+            <param name="type">任务id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_Item_CheckController.GetWorkerListPageAsync(System.Guid,System.Int32)">
+            <summary>
+            通用分发接口
+            </summary>
+            <param name="record_id">工地记录</param>
+            <param name="type">0:BRF, 1:SCR, 2:CPD, 3:QDC, 4:CP, 5:SIC</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_Item_CheckController.SetCheckItemBySingleAsync(Vodace.Entity.DomainModels.SetItemValueDataDto)">
+            <summary>
+            单条保存设置值
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_Item_CheckController.SetItemSignBySingleAsync(Vodace.Entity.DomainModels.SetItemSignDto,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            保存签名文件
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_Item_CheckController.SetCheckItemValueAsync(Vodace.Entity.DomainModels.SetIemValueDto,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_Item_CheckController.SetSICDataAsync(Vodace.Entity.DomainModels.EditCheckSICdAT)">
+            <summary>
+            设置SIC清单（选择SIC人员和参考编号）
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.GetWorkerListPageAsync(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.SiteWorkerSearchDto})">
+            <summary>
+            根据工地记录获取工人列表（分页）
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.GetCICAttendancePageAsync(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.SiteWorkerSearchDto})">
+            <summary>
+            根据工地记录获取工人出勤列表（分页）
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.GetSiteAttendanceRecords(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.SiteAttendanceRecordDto})">
+            <summary>
+            地盘出勤记录（完成CIC记录）
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.GetContactAttendanceActualSalary(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.SiteAttendanceRecordDto})">
+            <summary>
+            工人出勤资料(实际薪资)
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.GetContactAttendanceSalaryCalculationStandard(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.SiteAttendanceRecordDto})">
+            <summary>
+            工人出勤资料（计薪标准）
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.GetSiteAttendanceTotal(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.SiteAttendanceRecordDto})">
+            <summary>
+            地盘出勤统计（人天统计）
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.GetSiteAttendanceSalaryTotal(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.SiteAttendanceRecordDto})">
+            <summary>
+            地盘出勤统计（工资统计）
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.EditWorkerDataAsync(Vodace.Entity.DomainModels.EditWorkerDto)">
+            <summary>
+            编辑工人信息（app端）
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.EditWorkerDataByWebAsync(Vodace.Entity.DomainModels.EditWorkByWebDto)">
+            <summary>
+            编辑工人信息（web端）
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.AddWorkerByQRCodeAsync(System.Guid,System.Guid)">
+            <summary>
+            根据二维码信息添加工人
+            </summary>
+            <param name="record_id">工地记录id</param>
+            <param name="contect_id">联系人id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.AddWorkerByContactListAsync(Vodace.Entity.DomainModels.AddWorkerByContactDto)">
+            <summary>
+            批量添加工人
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.DeleteWorkerByIdAsync(System.Guid)">
+            <summary>
+            根据工地工作记录删除工人
+            </summary>
+            <param name="id">工人id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.WorkerTimeOutByIdAsync(System.Guid)">
+            <summary>
+            根据工人id下班打卡
+            </summary>
+            <param name="id">工人id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.WorkerTimeOutByAllAsync(System.Guid)">
+            <summary>
+            根据工地工作记录id将未下班的工人进行下班打卡
+            </summary>
+            <param name="record_id">工地工作记录id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.WorkerTimeAdjustmentAsync(Vodace.Entity.DomainModels.WorkerTimeChangeDto)">
+            <summary>
+            工人上下班时间调整
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.WorkerSalaryChangeAsync(Vodace.Entity.DomainModels.WorkerSalaryChangeDto)">
+            <summary>
+            手动调整工地工作记录工人薪资
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.SetSiteWorkRecordCPAsync(System.Guid,System.Guid)">
+            <summary>
+            设置当值值更管理人员
+            </summary>
+            <param name="id">工人id</param>
+            <param name="record_id">工地工作记录表id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.GetSiteWorkCPAsync(System.Guid)">
+            <summary>
+            根据工地工作记录id获取工人管工列表
+            </summary>
+            <param name="record_id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.EditWorkerAttendance(Vodace.Entity.DomainModels.EditWorkerAttendanceDto)">
+            <summary>
+            编辑工地工作记录工人考勤记录
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.SetContactWorkTypeSalary(Vodace.Entity.DomainModels.SetContactWorkTypeSalaryDto)">
+            <summary>
+            设置工人资料工种对应的薪资
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.GetContactWorkTypeSalaryAsync(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.ContactWorkTypeSearchDto})">
+            <summary>
+            分页查询工人资料-计薪标准
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Site_Work_Record_WorkerController.GetContactWorkTypeSalaryByMonthAsync(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.ContactWorkTypeSearchDto})">
+            <summary>
+            分页查询工人资料-计薪标准
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Sub_ContractorsController.GetDropList">
+            <summary>
+            获取合约客户下拉列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_TaskController.AddTask(Vodace.Entity.DomainModels.TaskDto)">
+            <summary>
+            新增 Task
+            </summary>
+            <param name="mTaskDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_TaskController.EditTask(Vodace.Entity.DomainModels.TaskDto)">
+            <summary>
+            修改 Task
+            </summary>
+            <param name="mTaskDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_TaskController.DelTask(System.Guid)">
+            <summary>
+            删除 Task
+            </summary>
+            <param name="mTaskDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_TaskController.GetTaskList(Vodace.Entity.DomainModels.PageDataOptions)">
+            <summary>
+            获取Task信息列表
+            </summary>
+            <param name="mTaskDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_TaskController.GetTaskById(System.Guid)">
+            <summary>
+            获取Task信息
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Task_DetailController.AddTaskDetail(Vodace.Entity.DomainModels.TaskDetailDto)">
+            <summary>
+            新增 TaskDetail
+            </summary>
+            <param name="mTaskDetailDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Task_DetailController.EditTaskDetail(Vodace.Entity.DomainModels.TaskDetailDto)">
+            <summary>
+            修改 TaskDetail
+            </summary>
+            <param name="mTaskDetailDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Task_DetailController.DelTaskDetail(System.Guid)">
+            <summary>
+            删除 TaskDetail
+            </summary>
+            <param name="mTaskDetailDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Task_DetailController.GetTaskDetailList(Vodace.Entity.DomainModels.PageDataOptions)">
+            <summary>
+            获取TaskDetail信息列表
+            </summary>
+            <param name="mTaskDetailDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Task_DetailController.GetTaskDetailById(System.Guid)">
+            <summary>
+            获取TaskDetail信息
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Task_Detail_Work_TypeController.AddTaskWorkType(Vodace.Entity.DomainModels.TaskWorkTypeDto)">
+            <summary>
+            新增 Task Work Type
+            </summary>
+            <param name="mTaskDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Task_Detail_Work_TypeController.EditTaskWorkType(Vodace.Entity.DomainModels.TaskWorkTypeDto)">
+            <summary>
+            修改 TaskWorkType
+            </summary>
+            <param name="mTaskWorkTypeDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Task_Detail_Work_TypeController.DelTaskWorkType(System.Guid)">
+            <summary>
+            删除 TaskWorkType
+            </summary>
+            <param name="mTaskWorkTypeDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Task_Detail_Work_TypeController.GetTaskWorkTypeById(System.Guid)">
+            <summary>
+            获取TaskWorkType信息
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Task_GroupController.AddTaskGroup(Vodace.Entity.DomainModels.TaskGroupDto)">
+            <summary>
+            新增 Task AddTaskGroup
+            </summary>
+            <param name="mTaskAddTaskGroupDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Task_GroupController.EditTask(Vodace.Entity.DomainModels.TaskGroupDto)">
+            <summary>
+            修改 Task Group
+            </summary>
+            <param name="mTaskGroupDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Task_GroupController.DelTaskGroup(System.Guid)">
+            <summary>
+            删除 TaskGroup
+            </summary>
+            <param name="mTaskGroupDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Task_GroupController.GetTasGroupkList(Vodace.Entity.DomainModels.PageDataOptions)">
+            <summary>
+            获取Task Group信息列表
+            </summary>
+            <param name="mTaskDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Task_GroupController.GetTaskGroupById(System.Guid)">
+            <summary>
+            获取Task Group信息
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Task_Group_RelationshipController.AddTaskGroupRelationship(Vodace.Entity.DomainModels.TaskGroupRelationshipDto)">
+            <summary>
+            新增 Task Group Relationship
+            </summary>
+            <param name="mTaskAddTaskGroupDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Task_Group_RelationshipController.EditTaskGroupRelationship(Vodace.Entity.DomainModels.TaskGroupRelationshipDto)">
+            <summary>
+            修改 Task Group
+            </summary>
+            <param name="mTaskGroupDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Task_Group_RelationshipController.DelTaskGroupRelationship(System.Guid)">
+            <summary>
+            删除 TaskGroup Relationship
+            </summary>
+            <param name="mTaskGroupDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Task_Group_RelationshipController.GetTasGroupRelationshipList(Vodace.Entity.DomainModels.PageDataOptions)">
+            <summary>
+            获取Task Group Relationship信息列表
+            </summary>
+            <param name="mTaskDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Task_Group_RelationshipController.GetTaskGroupRelationshipById(System.Guid)">
+            <summary>
+            获取Task Group Relationship信息
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Upcoming_EventsController.GetEventList">
+            <summary>
+            获取活动列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Various_Work_OrderController.AddDetail(Vodace.Entity.DomainModels.Various_Work_OrderDto)">
+            <summary>
+            新增VO/WO
+            </summary>
+            <param name="m_Project"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Various_Work_OrderController.AddVariousWork(Vodace.Entity.DomainModels.Biz_Various_Work_Order)">
+            <summary>
+            新增VO/WO
+            </summary>
+            <param name="m_Project"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Various_Work_OrderController.DelVariousWork(System.Guid)">
+            <summary>
+            删除VO/WO
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+            <remarks>实际为软删除</remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Biz_Various_Work_OrderController.EditVariousWork(Vodace.Entity.DomainModels.Biz_Various_Work_Order)">
+            <summary>
+            修改VO/WO
+            </summary>
+            <param name="m_Project"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Attendance_LocationController.GetPageData(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.LocationSearchDto})">
+            <summary>
+            获取列表（分页）
+            </summary>
+            <param name="dtoSearchInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Attendance_LocationController.GetData(Vodace.Entity.DomainModels.LocationSearchDto)">
+            <summary>
+            获取列表（不分页）
+            </summary>
+            <param name="dtoSearchInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Attendance_LocationController.AddData(Vodace.Entity.DomainModels.LocationInputDto)">
+            <summary>
+            添加数据
+            </summary>
+            <param name="dtoInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Attendance_LocationController.EditData(Vodace.Entity.DomainModels.LocationEditDto)">
+            <summary>
+            编辑数据
+            </summary>
+            <param name="dtoEdit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Attendance_LocationController.DeleteData(System.Guid)">
+            <summary>
+            删除数据（软删）
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Attendance_RecordController.GetRecord(System.Int32,System.String,System.String)">
+            <summary>
+            获取打卡记录
+            </summary>
+            <param name="userId">用户id</param>
+            <param name="userNo">用户编号</param>
+            <param name="punchTime">打卡时间(yyyy-MM-dd)</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Attendance_RecordController.GetRecordList(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.AttendanceRecordQuery})">
+            <summary>
+            根据时间范围获取用户打卡记录
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Attendance_RecordController.AddData(Vodace.Entity.DomainModels.AttendanceRecordDto)">
+            <summary>
+            添加打卡记录
+            </summary>
+            <param name="recordDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Attendance_RecordController.GetMaxAndMinTimeAllRecordList(Vodace.Entity.DomainModels.AtdRecordMaxMinTimeQuery)">
+            <summary>
+            根据时间范围获取用户最早最晚打卡记录
+            </summary>
+            <param name="query">传入实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Attendance_RecordController.GetDayRecordDetailsList(Vodace.Entity.DomainModels.AtdDayRecordDetailsQuery)">
+            <summary>
+            根据时间范围获取用户最早最晚打卡记录
+            </summary>
+            <param name="query">传入实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_CompanyController.Add(Vodace.Entity.DomainModels.CompanyDto)">
+            <summary>
+            注册公司
+            </summary>
+            <param name="company">
+            company_name:公司名称-中文名<br/>
+            company_name_eng：公司名称-英文名<br/>
+            license_no：执照编号<br/>
+            contact：联系人<br/>
+            contact_phone：联系人电话号<br/>
+            contact_email：联系人邮箱<br/>
+            </param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_CompanyController.Update(Vodace.Entity.DomainModels.CompanyDto)">
+            <summary>
+            编辑公司
+            </summary>
+            <param name="company"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_CompanyController.Audit(Vodace.Entity.DomainModels.CompanyAuditDto)">
+            <summary>
+            审核公司信息
+            </summary>
+            <param name="company"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_CompanyController.GetListByPage(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.CompanyQuery})">
+            <summary>
+            获取公司列表-分页
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_CompanyController.DelData(System.Guid)">
+            <summary>
+            删除公司
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_ConfigController.GetListByPage(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.ConfigQuery})">
+            <summary>
+            获取分页列表
+            </summary>
+            <param name="query"></param>
+            config_type：配置类型（0：消息提醒配置;1:文件存放路径）
+            config_key：配置项键
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_ConfigController.Add(Vodace.Entity.DomainModels.ConfigAddDto)">
+            <summary>
+            新增配置项
+            </summary>
+            <param name="config"></param>
+            config_type：配置类型（0：消息提醒配置;1:文件存放路径）
+            config_key：配置项键
+            config_value：配置项值
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_ConfigController.Update(Vodace.Entity.DomainModels.ConfigEditDto)">
+            <summary>
+            编辑配置项
+            </summary>
+            <param name="config"></param>
+            id:id主键
+            config_type：配置类型（0：消息提醒配置;1:文件存放路径）
+            config_key：配置项键
+            config_value：配置项值
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_ConfigController.GetConfigByTypeAsync(System.Int32,System.String)">
+            <summary>
+            根据类型和key获取配置信息
+            </summary>
+            <param name="type">配置类型</param>
+            <param name="key">配置项键</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Construction_Content_InitController.ImportData(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            导入工程初始化文件
+            </summary>
+            <param name="file">导入文件</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_ContactController.GetListByPage(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.ContactQuery})">
+            <summary>
+            获取联系人列表-分页
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_ContactController.AddContact(Vodace.Entity.DomainModels.ContactDetailDto)">
+            <summary>
+            新增联系人
+            </summary>
+            <param name="sys_Contact"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_ContactController.DelContact(System.Guid)">
+            <summary>
+            删除联系人
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+            <remarks>实际为软删除</remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_ContactController.EditContact(Vodace.Entity.DomainModels.ContactEditlDto)">
+            <summary>
+            修改联系人
+            </summary>
+            <param name="sys_Contact"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_ContactController.GetContactList(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.SearchContactDto})">
+            <summary>
+            获取联系人列表
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+            <remarks>
+            strCompanyName：公司名称 <br/>
+            name_eng：联络人名称（英文） <br/>
+            name_cht：联络人名称（中文） <br/>
+            strOrganizationName：职位/组织 名称 <br/>
+            strDepartmentName：部门名称 <br/>
+            tel：电话 <br/>
+            fax：传真 <br/>
+            email：邮箱 <br/>
+            title：角色 （头衔、职称）<br/>
+            strDistrictNameEng：行政区域名称（英文） <br/>
+            strDistrictNameCht：行政区域名称（中文） <br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_ContactController.GetContactAllName">
+            <summary>
+            获取联系人名称及ID列表
+            </summary>
+            <returns></returns>
+            <remarks>
+            返回结果字段及说明：<br/>
+            id: 项目ID（GUID）<br />
+            name_eng: 项目英文名 <br />
+            name_cht: 项目中文名 <br />
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_ContactController.GetContactById(System.Guid)">
+            <summary>
+            获取联系人信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_ContactController.GetContactWithCardDataAsync(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.SearchContactWithCardDto})">
+            <summary>
+            获取联系人下拉列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_DictionaryController.GetTableDictionary(System.Collections.Generic.Dictionary{System.String,System.Object[]})">
+            <summary>
+            table加载数据后刷新当前table数据的字典项(适用字典数据量比较大的情况)
+            </summary>
+            <param name="value"></param> 
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_DictionaryController.GetSearchDictionary(System.String,System.String)">
+            <summary>
+            远程搜索
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_DictionaryController.GetRemoteDefaultKeyValue(System.String,System.String)">
+            <summary>
+            表单设置为远程查询，重置或第一次添加表单时，获取字典的key、value
+            </summary>
+            <param name="dicNo"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_DictionaryController.GetBuilderDictionary">
+            <summary>
+            代码生成器获取所有字典项(超级管理权限)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_DictionaryController.AddData(Vodace.Entity.DomainModels.DictionaryDto)">
+            <summary>
+            新增数据字典
+            </summary>
+            <param name="dictionaryDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_DictionaryController.EditData(Vodace.Entity.DomainModels.DictionaryEditDto)">
+            <summary>
+            修改数据字典
+            </summary>
+            <param name="dictionaryDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_DictionaryController.DelData(System.Int32)">
+            <summary>
+            删除数据字典
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_DictionaryController.GetDicPageDataAsync(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.DictionarySearchDto})">
+            <summary>
+            获取数据字典分页
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_DictionaryListController.Export(Vodace.Entity.DomainModels.PageDataOptions)">
+            <summary>
+            导出明细
+            （重写权限）将子表的权限指向主表权限
+            </summary>
+            <param name="loadData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_DictionaryListController.Import(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile})">
+            <summary>
+            导入表数据Excel
+             （重写权限）将子表的权限指向主表权限
+            </summary>
+            <param name="fileInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_DictionaryListController.DownLoadTemplate">
+            <summary>
+            下载导入Excel模板
+            （重写权限）将子表的权限指向主表权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_DictionaryListController.GetDictionaryByCode(System.String)">
+            <summary>
+            根据code获取数字字典下拉列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Vodace.Sys.Controllers.Sys_Employee_ManagementController">
+            <summary>
+            考勤管理-员工管理
+            </summary>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Employee_ManagementController.GetListByPageAsync(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.SysEmpMentQueryDto})">
+            <summary>
+            获取员工列表-分页
+            </summary>
+            <param name="pageInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Employee_ManagementController.Create0rUpdateDataAsync(Vodace.Entity.DomainModels.SysEmpMentCreateOrUpdateDto)">
+            <summary>
+            获取员工列表
+            </summary>
+            <param name="addDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Employee_ManagementController.DelData(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            删除员工
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Employee_ManagementController.GetForEditAsync(System.Guid)">
+            <summary>
+            删除员工
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_File_ConfigController.AddFileConfig(Vodace.Entity.DomainModels.AddFileConfigDto)">
+            <summary>
+            新增文件配置
+            </summary>
+            <param name="m_Project"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_File_ConfigController.DelFileConfig(System.Guid)">
+            <summary>
+            删除文件配置
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+            <remarks>实际为软删除</remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_File_ConfigController.EditFileConfig(Vodace.Entity.DomainModels.EditFileConfigDto)">
+            <summary>
+            修改文件配置
+            </summary>
+            <param name="m_Project"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_File_ConfigController.GetFileConfigList(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.AddFileConfigDto})">
+            <summary>
+            获取文件配置列表
+            </summary>
+            <param name="loadData"></param>
+            <returns></returns>
+            <remarks>
+            返回结果字段及说明：<br/>
+            id：文件配置主键<br/>
+            file_code：文件配置编码（目前后端代码控制，暂不提供对外开放）<br/>
+            folder_path：存放的目录地址<br/>
+            remark：备注<br/>
+            create_name：创建人<br/>
+            create_date：创建时间<br/>
+            modify_name：修改人<br/>
+            modify_date：修改时间
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_File_ConfigController.GetFileConfigById(System.Guid)">
+            <summary>
+            获取文件配置详情
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_File_ConfigController.GetFileConfigAllName">
+            <summary>
+            获取文件配置名称及ID列表
+            </summary>
+            <returns></returns>
+            <remarks>
+            返回结果字段及说明：<br/>
+            id: 文件配置ID（GUID）<br />
+            file_code：文件配置编码（目前后端代码控制，暂不提供对外开放）<br/>
+            folder_path：存放的目录地址<br/>
+            </remarks>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_File_RecordsController.WorkRegisterUploadAsync(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile},System.String)">
+            <summary>
+            工人注册上传文件接口
+            </summary>
+            <param name="litFiles"></param>
+            <param name="strFileType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_File_RecordsController.UploadFilesAsync(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile},System.String)">
+            <summary>
+            上传文件（多个）
+            </summary>
+            <param name="litFiles"></param>
+            <param name="strFileType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_File_RecordsController.DownSysFile(System.Guid)">
+            <summary>
+            下载文件（通用）
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_File_RecordsController.PreviewFile(System.Guid)">
+            <summary>
+            预览文件（通用）
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_File_RecordsController.PDFFileChange(System.Guid)">
+            <summary>
+            文件转换
+            </summary>
+            <param name="guidId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_File_RecordsController.PDFFileChangeByPath">
+            <summary>
+            文件转换
+            </summary>
+            <param name="guidId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Leave_HolidayController.GetListByPage(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.LeaveHolidayQuery})">
+            <summary>
+            获取公共假期列表-分页
+            </summary>
+            <param name="pageInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Leave_HolidayController.GetList">
+            <summary>
+            获取公共假期列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Leave_HolidayController.AddData(Vodace.Entity.DomainModels.LeaveHolidayAddDto)">
+            <summary>
+            添加公共假期
+            </summary>
+            <param name="addDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Leave_HolidayController.EdidData(Vodace.Entity.DomainModels.LeaveHolidayEditDto)">
+            <summary>
+            修改公共假期
+            </summary>
+            <param name="editDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Leave_HolidayController.DelData(System.Collections.Generic.List{System.Guid})">
+             <summary>
+            
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Leave_HolidayController.ImportData(Vodace.Entity.DomainModels.LeaveHolidayImportDto)">
+            <summary>
+            json导入日期
+            </summary>
+            <param name="importDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Leave_TypeController.GetListByPage(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.LeaveTypeQuery})">
+            <summary>
+            获取假期类型列表-分页
+            </summary>
+            <param name="pageInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Leave_TypeController.GetList">
+            <summary>
+            获取假期类型列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Leave_TypeController.AddData(Vodace.Entity.DomainModels.LeaveTypeAddDto)">
+            <summary>
+            添加假期类型
+            </summary>
+            <param name="addDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Leave_TypeController.EdidData(Vodace.Entity.DomainModels.LeaveTypeEditDto)">
+            <summary>
+            修改假期类型
+            </summary>
+            <param name="editDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Leave_TypeController.DelData(System.Guid)">
+            <summary>
+            删除假期类型
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Vodace.Sys.Controllers.Sys_MenuController.GetTreeMenu" -->
+        <member name="M:Vodace.Sys.Controllers.Sys_MenuController.GetTraditional(System.String)">
+            <summary>
+            转换繁体
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_MenuController.DelMenu(System.Int32)">
+            <summary>
+            限制只能超级管理员才删除菜单 
+            </summary>
+            <param name="keys"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_MenuController.GetListByPage(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.MenuQuery})">
+            <summary>
+            分页列表
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_MenuController.GetParentMenu">
+            <summary>
+            获取一级菜单列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_MenuController.GetMenuById(System.Int32)">
+            <summary>
+            获取菜单详情
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_MenuController.AddData(Vodace.Entity.DomainModels.MenuAddDto)">
+            <summary>
+            新增菜单
+            </summary>
+            <param name="menu"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_MenuController.EditData(Vodace.Entity.DomainModels.MenuDto)">
+            <summary>
+            更新菜单
+            </summary>
+            <param name="menu"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_MenuController.DelData(System.Int32)">
+            <summary>
+            删除菜单
+            </summary>
+            <param name="menuId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_MenuController.SetMenuHidden(Vodace.Entity.DomainModels.MenuHiddenDto)">
+            <summary>
+            更新菜单
+            </summary>
+            <param name="menu"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_MenuController.GetMenuTree">
+            <summary>
+            获取1、2菜单树
+            </summary>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Message_NotificationController.GetList(System.String)">
+            <summary>
+            获取消息通知列表
+            </summary>
+            <param name="user_name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Message_NotificationController.UpdateStatus(System.Guid,System.Int32)">
+            <summary>
+            更新消息状态
+            </summary>
+            <param name="id"></param>
+            <param name="status">消息状态（0：未读；1：已读；2：已处理；3：已逾期；4：过期）</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Message_NotificationController.UserOffline(System.String)">
+            <summary>
+            用户下线
+            </summary>
+            <param name="userName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_QuartzOptionsController.Test2">
+            <summary>
+            api加上属性 [ApiTask]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_QuartzOptionsController.TaskTest">
+            <summary>
+            api加上属性 [ApiTask]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_QuartzOptionsController.Run(Vodace.Entity.DomainModels.Sys_QuartzOptions)">
+            <summary>
+            手动执行一次
+            </summary>
+            <param name="taskOptions"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_QuartzOptionsController.Start(Vodace.Entity.DomainModels.Sys_QuartzOptions)">
+            <summary>
+            开启任务
+            </summary>
+            <param name="schedulerFactory"></param>
+            <param name="taskOptions"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_QuartzOptionsController.Pause(Vodace.Entity.DomainModels.Sys_QuartzOptions)">
+            <summary>
+            暂停任务
+            </summary>
+            <param name="schedulerFactory"></param>
+            <param name="taskOptions"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_QuartzOptionsController.GetListByPage(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.TaskQuery})">
+            <summary>
+            获取分页列表
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_QuartzOptionsController.Add(Vodace.Entity.DomainModels.TaskAddDto)">
+            <summary>
+            定时任务-新增数据
+            </summary>
+            <param name="dto"></param>
+            task_name：任务名称
+            group_name：任务分组
+            method：请求方式
+            api_url：api接口地址
+            post_data：post参数
+            auth_key：认证key
+            auth_value：认证value
+            describe：描述
+            status：运行状态
+            time_out：超时时间(秒)
+            cron_expression：Corn表达式
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_QuartzOptionsController.Update(Vodace.Entity.DomainModels.TaskEditDto)">
+            <summary>
+            定时任务-编辑数据
+            </summary>
+            <param name="dto"></param>
+            task_name：任务名称
+            group_name：任务分组
+            method：请求方式
+            api_url：api接口地址
+            post_data：post参数
+            auth_key：认证key
+            auth_value：认证value
+            describe：描述
+            status：运行状态
+            time_out：超时时间(秒)
+            cron_expression：Corn表达式
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_QuartzOptionsController.SwitchStatus(System.Guid)">
+            <summary>
+            定时任务-切换状态
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_QuartzOptionsController.DelData(System.Guid)">
+            <summary>
+            定时任务-删除数据
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_RoleController.GetALLTreePermission">
+            <summary>
+            获取菜单、页面、页面按钮（用于角色分配权限页面）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_RoleController.GetCurrentTreePermission(System.Int32)">
+            <summary>
+            获取角色分配的菜单、菜单按钮
+            </summary>
+            <param name="roleId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_RoleController.SavePermission(System.Collections.Generic.List{Vodace.Sys.Services.UserPermissions},System.Int32)">
+            <summary>
+            保存角色 菜单权限
+            </summary>
+            <param name="userPermissions"></param>
+            <param name="roleId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_RoleController.GetUserChildRoles">
+            <summary>
+            获取当前角色下的所有角色 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_RoleController.GetPageData(Vodace.Entity.DomainModels.PageDataOptions)">
+            <summary>
+            获取角色列表
+            </summary>
+            <param name="loadData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_RoleController.GetTreeTableRootData(Vodace.Entity.DomainModels.PageDataOptions)">
+            <summary>
+            treetable
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_RoleController.GetTreeTableChildrenData(System.Int32)">
+             <summary>
+            treetable 获取子节点数据(2021.05.02)
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_RoleController.GetListByPage(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.RoleQuery})">
+            <summary>
+            获取角色分页列表
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_RoleController.GetRoleById(System.Int32)">
+            <summary>
+            获取角色详情
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_RoleController.AddData(Vodace.Entity.DomainModels.RoleDto)">
+             <summary>
+            添加角色
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_RoleController.DelData(System.Int32)">
+            <summary>
+            删除角色
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_RoleController.EditData(Vodace.Entity.DomainModels.EditRoleDto)">
+            <summary>
+            编辑角色
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_User_NewController.GetListByPage(Vodace.Entity.PageInput{Vodace.Entity.DomainModels.UserQuery})">
+            <summary>
+            分页列表
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_User_NewController.GetUserById(System.Int32)">
+            <summary>
+            获取用户详情
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_User_NewController.GetVierificationCode">
+            <summary>
+            增加登陆验证码
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_User_NewController.EditData(Vodace.Entity.DomainModels.UserDto)">
+            <summary>
+            编辑用户
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_User_NewController.EditData(System.Int32[])">
+            <summary>
+            删除用户
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_User_NewController.ModifyUserPwd(Vodace.Entity.DomainModels.UserPwdInfo)">
+            <summary>
+            修改用户密码
+            </summary>
+            <param name="userPwd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_User_NewController.SwitchLang(Vodace.Entity.DomainModels.SwitchLangDto)">
+            <summary>
+            用户切换语言(0：中文简体；1：中文繁体；2：英语)
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_User_NewController.SwitchEnable(System.Int32,System.Int32)">
+            <summary>
+            用户启用/禁用
+            </summary>
+            <param name="id">用户id</param>
+            <param name="enable">0:禁用，1：启用</param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_User_NewController.ClockInTest(Vodace.Entity.DomainModels.ClockIn)">
+            <summary>
+            打卡机测试
+            </summary>
+            <param name="ClockIn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_User_RegisterController.AddUserRegister(Vodace.Entity.DomainModels.UserBaseDto)">
+            <summary>
+            用户注册（流程1）
+            </summary>
+            <param name="register"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_User_RegisterController.RegisterUserNew(Vodace.Entity.DomainModels.UserRegisterNewDto)">
+            <summary>
+            用户注册(完整流程)
+            </summary>
+            <param name="register"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_User_RegisterController.CheckExist(System.String)">
+            <summary>
+            验证注册身份证号
+            </summary>
+            <param name="idNo"></param>
+            <param name="phone"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_User_RegisterController.CheckCompanyNo(System.String)">
+            <summary>
+            注册时验证公司是否存在
+            </summary>
+            <param name="com_no"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_User_RegisterController.CheckUserExist(System.String,System.String)">
+            <summary>
+            注册时验证用户名是否存在
+            </summary>
+            <param name="com_no"></param>
+            <param name="userName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vodace.Sys.Controllers.Sys_Work_TypeController.GetDataTree">
+            <summary>
+            获取工种信息
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

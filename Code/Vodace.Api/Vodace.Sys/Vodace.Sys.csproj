@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName></SccProjectName>
+    <SccProvider></SccProvider>
+    <SccAuxPath></SccAuxPath>
+    <SccLocalPath></SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;NU1902;NU1903;NU1904;</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702;NU1902;NU1903;NU1904;</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="IRepositories\Sys\**" />
+    <Compile Remove="IServices\Sys\**" />
+    <Compile Remove="Services\Main\**" />
+    <EmbeddedResource Remove="IRepositories\Sys\**" />
+    <EmbeddedResource Remove="IServices\Sys\**" />
+    <EmbeddedResource Remove="Services\Main\**" />
+    <None Remove="IRepositories\Sys\**" />
+    <None Remove="IServices\Sys\**" />
+    <None Remove="Services\Main\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="IRepositories\System\ISys_UserRepository.cs" />
+    <Compile Remove="IServices\Biz\Partial\IBiz_Completion_Acceptance_RecordService.cs" />
+    <Compile Remove="IServices\Biz\Partial\IBiz_Deadline_Management_FileService.cs" />
+    <Compile Remove="IServices\System\ISys_UserService.cs" />
+    <Compile Remove="IServices\System\Partial\ISys_UserService.cs" />
+    <Compile Remove="Repositories\System\Sys_UserRepository.cs" />
+    <Compile Remove="Services\Biz\Partial\Biz_Completion_Acceptance_RecordService.cs" />
+    <Compile Remove="Services\Biz\Partial\Biz_Deadline_Management_FileService.cs" />
+    <Compile Remove="Services\System\Partial\Sys_UserService.cs" />
+    <Compile Remove="Services\System\Sys_UserService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="8.0.0" />
+    <PackageReference Include="LinqKit.Microsoft.EntityFrameworkCore" Version="8.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.0" />
+    <PackageReference Include="TraditionalChineseToSimplifiedConverter" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vodace.Core\Vodace.Core.csproj" />
+    <ProjectReference Include="..\Vodace.Entity\Vodace.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,411 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.sys\\services\\system\\partial\\sys_departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|solutionrelative:vodace.sys\\services\\system\\partial\\sys_departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA52B00-DD4C-25C8-83D7-5988A267326F}|Vodace.Core\\Vodace.Core.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.core\\localization\\localizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEA52B00-DD4C-25C8-83D7-5988A267326F}|Vodace.Core\\Vodace.Core.csproj|solutionrelative:vodace.core\\localization\\localizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.sys\\services\\biz\\partial\\biz_submission_filesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|solutionrelative:vodace.sys\\services\\biz\\partial\\biz_submission_filesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.sys\\iservices\\biz\\partial\\ibiz_submission_filesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|solutionrelative:vodace.sys\\iservices\\biz\\partial\\ibiz_submission_filesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.sys\\services\\biz\\partial\\biz_site_work_record_workerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|solutionrelative:vodace.sys\\services\\biz\\partial\\biz_site_work_record_workerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.sys\\services\\biz\\partial\\biz_rolling_program_taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|solutionrelative:vodace.sys\\services\\biz\\partial\\biz_rolling_program_taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.sys\\services\\biz\\partial\\biz_rolling_programservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|solutionrelative:vodace.sys\\services\\biz\\partial\\biz_rolling_programservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCC5D500-369E-78D8-E5D9-53CD336391C9}|Vodace.WebApi\\Vodace.Api.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.webapi\\controllers\\sys\\partial\\biz_submission_filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCC5D500-369E-78D8-E5D9-53CD336391C9}|Vodace.WebApi\\Vodace.Api.csproj|solutionrelative:vodace.webapi\\controllers\\sys\\partial\\biz_submission_filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.sys\\services\\biz\\partial\\biz_rolling_program_site_contentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|solutionrelative:vodace.sys\\services\\biz\\partial\\biz_rolling_program_site_contentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCC5D500-369E-78D8-E5D9-53CD336391C9}|Vodace.WebApi\\Vodace.Api.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.webapi\\controllers\\sys\\partial\\biz_rolling_program_site_contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCC5D500-369E-78D8-E5D9-53CD336391C9}|Vodace.WebApi\\Vodace.Api.csproj|solutionrelative:vodace.webapi\\controllers\\sys\\partial\\biz_rolling_program_site_contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.sys\\services\\biz\\partial\\biz_contractorgservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|solutionrelative:vodace.sys\\services\\biz\\partial\\biz_contractorgservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5139D598-8ABB-FB87-2204-4BE724E1A1F9}|Vodace.Entity\\Vodace.Entity.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.entity\\domainmodels\\biz\\partial\\biz_site_work_record_worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5139D598-8ABB-FB87-2204-4BE724E1A1F9}|Vodace.Entity\\Vodace.Entity.csproj|solutionrelative:vodace.entity\\domainmodels\\biz\\partial\\biz_site_work_record_worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCC5D500-369E-78D8-E5D9-53CD336391C9}|Vodace.WebApi\\Vodace.Api.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.webapi\\controllers\\sys\\partial\\biz_site_work_record_workercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCC5D500-369E-78D8-E5D9-53CD336391C9}|Vodace.WebApi\\Vodace.Api.csproj|solutionrelative:vodace.webapi\\controllers\\sys\\partial\\biz_site_work_record_workercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCC5D500-369E-78D8-E5D9-53CD336391C9}|Vodace.WebApi\\Vodace.Api.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.webapi\\controllers\\sys\\partial\\biz_site_work_recordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCC5D500-369E-78D8-E5D9-53CD336391C9}|Vodace.WebApi\\Vodace.Api.csproj|solutionrelative:vodace.webapi\\controllers\\sys\\partial\\biz_site_work_recordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.sys\\services\\biz\\partial\\biz_site_work_recordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|solutionrelative:vodace.sys\\services\\biz\\partial\\biz_site_work_recordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCC5D500-369E-78D8-E5D9-53CD336391C9}|Vodace.WebApi\\Vodace.Api.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.webapi\\localization\\zh-cn.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CCC5D500-369E-78D8-E5D9-53CD336391C9}|Vodace.WebApi\\Vodace.Api.csproj|solutionrelative:vodace.webapi\\localization\\zh-cn.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.sys\\services\\biz\\partial\\biz_projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|solutionrelative:vodace.sys\\services\\biz\\partial\\biz_projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.sys\\iservices\\biz\\partial\\ibiz_site_work_recordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|solutionrelative:vodace.sys\\iservices\\biz\\partial\\ibiz_site_work_recordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCC5D500-369E-78D8-E5D9-53CD336391C9}|Vodace.WebApi\\Vodace.Api.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.webapi\\controllers\\sys\\biz_site_work_recordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCC5D500-369E-78D8-E5D9-53CD336391C9}|Vodace.WebApi\\Vodace.Api.csproj|solutionrelative:vodace.webapi\\controllers\\sys\\biz_site_work_recordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.sys\\iservices\\biz\\partial\\ibiz_site_work_record_workerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|solutionrelative:vodace.sys\\iservices\\biz\\partial\\ibiz_site_work_record_workerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.sys\\services\\biz\\partial\\biz_contractservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B94E13B-56E1-30F6-4F56-8A0140EC5246}|Vodace.Sys\\Vodace.Sys.csproj|solutionrelative:vodace.sys\\services\\biz\\partial\\biz_contractservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCC5D500-369E-78D8-E5D9-53CD336391C9}|Vodace.WebApi\\Vodace.Api.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.webapi\\localization\\en-us.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CCC5D500-369E-78D8-E5D9-53CD336391C9}|Vodace.WebApi\\Vodace.Api.csproj|solutionrelative:vodace.webapi\\localization\\en-us.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5139D598-8ABB-FB87-2204-4BE724E1A1F9}|Vodace.Entity\\Vodace.Entity.csproj|d:\\jobs\\project_vodace_v5\\code\\vodace.api\\vodace.entity\\domainmodels\\biz\\partial\\biz_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5139D598-8ABB-FB87-2204-4BE724E1A1F9}|Vodace.Entity\\Vodace.Entity.csproj|solutionrelative:vodace.entity\\domainmodels\\biz\\partial\\biz_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LocalizationService.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Core\\Localization\\LocalizationService.cs",
+              "RelativeDocumentMoniker": "Vodace.Core\\Localization\\LocalizationService.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Core\\Localization\\LocalizationService.cs",
+              "RelativeToolTip": "Vodace.Core\\Localization\\LocalizationService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAmwFwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T02:47:45.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBiz_Submission_FilesService.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\IServices\\Biz\\Partial\\IBiz_Submission_FilesService.cs",
+              "RelativeDocumentMoniker": "Vodace.Sys\\IServices\\Biz\\Partial\\IBiz_Submission_FilesService.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\IServices\\Biz\\Partial\\IBiz_Submission_FilesService.cs",
+              "RelativeToolTip": "Vodace.Sys\\IServices\\Biz\\Partial\\IBiz_Submission_FilesService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswBYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:40:16.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Biz_Rolling_ProgramService.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\Services\\Biz\\Partial\\Biz_Rolling_ProgramService.cs",
+              "RelativeDocumentMoniker": "Vodace.Sys\\Services\\Biz\\Partial\\Biz_Rolling_ProgramService.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\Services\\Biz\\Partial\\Biz_Rolling_ProgramService.cs",
+              "RelativeToolTip": "Vodace.Sys\\Services\\Biz\\Partial\\Biz_Rolling_ProgramService.cs",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAkwAQBAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:18:04.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Biz_Rolling_Program_TaskService.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\Services\\Biz\\Partial\\Biz_Rolling_Program_TaskService.cs",
+              "RelativeDocumentMoniker": "Vodace.Sys\\Services\\Biz\\Partial\\Biz_Rolling_Program_TaskService.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\Services\\Biz\\Partial\\Biz_Rolling_Program_TaskService.cs",
+              "RelativeToolTip": "Vodace.Sys\\Services\\Biz\\Partial\\Biz_Rolling_Program_TaskService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAADwvy4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:19:59.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Biz_Site_Work_Record_WorkerService.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\Services\\Biz\\Partial\\Biz_Site_Work_Record_WorkerService.cs",
+              "RelativeDocumentMoniker": "Vodace.Sys\\Services\\Biz\\Partial\\Biz_Site_Work_Record_WorkerService.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\Services\\Biz\\Partial\\Biz_Site_Work_Record_WorkerService.cs",
+              "RelativeToolTip": "Vodace.Sys\\Services\\Biz\\Partial\\Biz_Site_Work_Record_WorkerService.cs",
+              "ViewState": "AgIAABgBAAAAAAAAAAAtwMQDAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T01:34:03.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sys_DepartmentService.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\Services\\System\\Partial\\Sys_DepartmentService.cs",
+              "RelativeDocumentMoniker": "Vodace.Sys\\Services\\System\\Partial\\Sys_DepartmentService.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\Services\\System\\Partial\\Sys_DepartmentService.cs",
+              "RelativeToolTip": "Vodace.Sys\\Services\\System\\Partial\\Sys_DepartmentService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwD8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:03:26.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Biz_Submission_FilesController.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.WebApi\\Controllers\\Sys\\Partial\\Biz_Submission_FilesController.cs",
+              "RelativeDocumentMoniker": "Vodace.WebApi\\Controllers\\Sys\\Partial\\Biz_Submission_FilesController.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.WebApi\\Controllers\\Sys\\Partial\\Biz_Submission_FilesController.cs",
+              "RelativeToolTip": "Vodace.WebApi\\Controllers\\Sys\\Partial\\Biz_Submission_FilesController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:42:08.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Biz_Submission_FilesService.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\Services\\Biz\\Partial\\Biz_Submission_FilesService.cs",
+              "RelativeDocumentMoniker": "Vodace.Sys\\Services\\Biz\\Partial\\Biz_Submission_FilesService.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\Services\\Biz\\Partial\\Biz_Submission_FilesService.cs",
+              "RelativeToolTip": "Vodace.Sys\\Services\\Biz\\Partial\\Biz_Submission_FilesService.cs",
+              "ViewState": "AgIAALoBAAAAAAAAAAAIwNUBAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T02:26:34.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Biz_Rolling_Program_Site_ContentController.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.WebApi\\Controllers\\Sys\\Partial\\Biz_Rolling_Program_Site_ContentController.cs",
+              "RelativeDocumentMoniker": "Vodace.WebApi\\Controllers\\Sys\\Partial\\Biz_Rolling_Program_Site_ContentController.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.WebApi\\Controllers\\Sys\\Partial\\Biz_Rolling_Program_Site_ContentController.cs",
+              "RelativeToolTip": "Vodace.WebApi\\Controllers\\Sys\\Partial\\Biz_Rolling_Program_Site_ContentController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswCIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:58:06.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Biz_Rolling_Program_Site_ContentService.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\Services\\Biz\\Partial\\Biz_Rolling_Program_Site_ContentService.cs",
+              "RelativeDocumentMoniker": "Vodace.Sys\\Services\\Biz\\Partial\\Biz_Rolling_Program_Site_ContentService.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\Services\\Biz\\Partial\\Biz_Rolling_Program_Site_ContentService.cs",
+              "RelativeToolTip": "Vodace.Sys\\Services\\Biz\\Partial\\Biz_Rolling_Program_Site_ContentService.cs",
+              "ViewState": "AgIAAKYBAAAAAAAAAAAmwI4BAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T08:02:49.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Biz_ContractOrgService.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\Services\\Biz\\Partial\\Biz_ContractOrgService.cs",
+              "RelativeDocumentMoniker": "Vodace.Sys\\Services\\Biz\\Partial\\Biz_ContractOrgService.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\Services\\Biz\\Partial\\Biz_ContractOrgService.cs",
+              "RelativeToolTip": "Vodace.Sys\\Services\\Biz\\Partial\\Biz_ContractOrgService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAwAoBAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T10:09:34.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Biz_Site_Work_Record_WorkerController.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.WebApi\\Controllers\\Sys\\Partial\\Biz_Site_Work_Record_WorkerController.cs",
+              "RelativeDocumentMoniker": "Vodace.WebApi\\Controllers\\Sys\\Partial\\Biz_Site_Work_Record_WorkerController.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.WebApi\\Controllers\\Sys\\Partial\\Biz_Site_Work_Record_WorkerController.cs",
+              "RelativeToolTip": "Vodace.WebApi\\Controllers\\Sys\\Partial\\Biz_Site_Work_Record_WorkerController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAswE8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T07:54:49.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Biz_Site_Work_RecordController.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.WebApi\\Controllers\\Sys\\Partial\\Biz_Site_Work_RecordController.cs",
+              "RelativeDocumentMoniker": "Vodace.WebApi\\Controllers\\Sys\\Partial\\Biz_Site_Work_RecordController.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.WebApi\\Controllers\\Sys\\Partial\\Biz_Site_Work_RecordController.cs",
+              "RelativeToolTip": "Vodace.WebApi\\Controllers\\Sys\\Partial\\Biz_Site_Work_RecordController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwDoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T01:17:38.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Biz_Site_Work_RecordService.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\Services\\Biz\\Partial\\Biz_Site_Work_RecordService.cs",
+              "RelativeDocumentMoniker": "Vodace.Sys\\Services\\Biz\\Partial\\Biz_Site_Work_RecordService.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\Services\\Biz\\Partial\\Biz_Site_Work_RecordService.cs",
+              "RelativeToolTip": "Vodace.Sys\\Services\\Biz\\Partial\\Biz_Site_Work_RecordService.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAUwGcAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T09:24:03.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Biz_Site_Work_Record_Worker.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Entity\\DomainModels\\Biz\\partial\\Biz_Site_Work_Record_Worker.cs",
+              "RelativeDocumentMoniker": "Vodace.Entity\\DomainModels\\Biz\\partial\\Biz_Site_Work_Record_Worker.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Entity\\DomainModels\\Biz\\partial\\Biz_Site_Work_Record_Worker.cs",
+              "RelativeToolTip": "Vodace.Entity\\DomainModels\\Biz\\partial\\Biz_Site_Work_Record_Worker.cs",
+              "ViewState": "AgIAAAACAAAAAAAAAAArwBYCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:26:38.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "zh-CN.json",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.WebApi\\Localization\\zh-CN.json",
+              "RelativeDocumentMoniker": "Vodace.WebApi\\Localization\\zh-CN.json",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.WebApi\\Localization\\zh-CN.json",
+              "RelativeToolTip": "Vodace.WebApi\\Localization\\zh-CN.json",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAWwJMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-14T08:06:15.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IBiz_Site_Work_RecordService.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\IServices\\Biz\\Partial\\IBiz_Site_Work_RecordService.cs",
+              "RelativeDocumentMoniker": "Vodace.Sys\\IServices\\Biz\\Partial\\IBiz_Site_Work_RecordService.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\IServices\\Biz\\Partial\\IBiz_Site_Work_RecordService.cs",
+              "RelativeToolTip": "Vodace.Sys\\IServices\\Biz\\Partial\\IBiz_Site_Work_RecordService.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAuwFwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T01:15:31.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Biz_ProjectService.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\Services\\Biz\\Partial\\Biz_ProjectService.cs",
+              "RelativeDocumentMoniker": "Vodace.Sys\\Services\\Biz\\Partial\\Biz_ProjectService.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\Services\\Biz\\Partial\\Biz_ProjectService.cs",
+              "RelativeToolTip": "Vodace.Sys\\Services\\Biz\\Partial\\Biz_ProjectService.cs",
+              "ViewState": "AgIAAH8BAAAAAAAAAAAswPEBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:36:45.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Biz_Site_Work_RecordController.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.WebApi\\Controllers\\Sys\\Biz_Site_Work_RecordController.cs",
+              "RelativeDocumentMoniker": "Vodace.WebApi\\Controllers\\Sys\\Biz_Site_Work_RecordController.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.WebApi\\Controllers\\Sys\\Biz_Site_Work_RecordController.cs",
+              "RelativeToolTip": "Vodace.WebApi\\Controllers\\Sys\\Biz_Site_Work_RecordController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T01:22:47.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Biz_ContractService.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\Services\\Biz\\Partial\\Biz_ContractService.cs",
+              "RelativeDocumentMoniker": "Vodace.Sys\\Services\\Biz\\Partial\\Biz_ContractService.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\Services\\Biz\\Partial\\Biz_ContractService.cs",
+              "RelativeToolTip": "Vodace.Sys\\Services\\Biz\\Partial\\Biz_ContractService.cs",
+              "ViewState": "AgIAAMcBAAAAAAAAAAAmwPsDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T02:50:53.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Biz_Project.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Entity\\DomainModels\\Biz\\partial\\Biz_Project.cs",
+              "RelativeDocumentMoniker": "Vodace.Entity\\DomainModels\\Biz\\partial\\Biz_Project.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Entity\\DomainModels\\Biz\\partial\\Biz_Project.cs",
+              "RelativeToolTip": "Vodace.Entity\\DomainModels\\Biz\\partial\\Biz_Project.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAADwv7cAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:01:12.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "en-US.json",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.WebApi\\Localization\\en-US.json",
+              "RelativeDocumentMoniker": "Vodace.WebApi\\Localization\\en-US.json",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.WebApi\\Localization\\en-US.json",
+              "RelativeToolTip": "Vodace.WebApi\\Localization\\en-US.json",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAJ8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-14T08:07:10.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IBiz_Site_Work_Record_WorkerService.cs",
+              "DocumentMoniker": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\IServices\\Biz\\Partial\\IBiz_Site_Work_Record_WorkerService.cs",
+              "RelativeDocumentMoniker": "Vodace.Sys\\IServices\\Biz\\Partial\\IBiz_Site_Work_Record_WorkerService.cs",
+              "ToolTip": "D:\\jobs\\Project_Vodace_v5\\Code\\Vodace.Api\\Vodace.Sys\\IServices\\Biz\\Partial\\IBiz_Site_Work_Record_WorkerService.cs",
+              "RelativeToolTip": "Vodace.Sys\\IServices\\Biz\\Partial\\IBiz_Site_Work_Record_WorkerService.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAkwI0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T07:57:22.524Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

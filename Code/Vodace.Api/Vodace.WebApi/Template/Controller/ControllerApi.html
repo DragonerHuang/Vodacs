@@ -1,0 +1,18 @@
+﻿
+using Microsoft.AspNetCore.Mvc;
+using Vodace.Core.Controllers.Basic;
+using Vodace.Entity.AttributeManager;
+using {Namespace}.IServices;
+namespace {Namespace}.Controllers
+{
+    [Route("api/{TableName}")]
+    [PermissionTable(Name = "{TableName}")]
+    public partial class {TableName}Controller : ApiBaseController<I{TableName}Service>
+    {
+        public {TableName}Controller(I{TableName}Service service)
+        : base(service)
+        {
+        }
+    }
+}
+

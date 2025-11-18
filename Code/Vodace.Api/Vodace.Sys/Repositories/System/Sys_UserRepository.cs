@@ -1,0 +1,25 @@
+﻿/*
+ * 此代码由框架生成，请勿随意更改
+ */
+using Vodace.Sys.IRepositories;
+using Vodace.Core.BaseProvider;
+using Vodace.Core.EFDbContext;
+using Vodace.Core.Extensions.AutofacManager;
+using Vodace.Entity.DomainModels;
+
+namespace Vodace.Sys.Repositories
+{
+    public partial class Sys_UserRepository : RepositoryBase<Sys_User>, ISys_UserRepository
+    {
+        public Sys_UserRepository(VOLContext dbContext)
+        : base(dbContext)
+        {
+
+        }
+        public static ISys_UserRepository Instance
+        {
+            get { return AutofacContainerModule.GetService<ISys_UserRepository>(); }
+        }
+    }
+}
+

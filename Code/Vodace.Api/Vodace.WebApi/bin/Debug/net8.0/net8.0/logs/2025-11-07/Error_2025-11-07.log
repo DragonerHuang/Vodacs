@@ -1,0 +1,48 @@
+【18:59:54.569】  Error T23 
+抛出信息：Biz_Rolling_Program_Site_ContentService.Add 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Biz_Rolling_Program_Site_ContentService.Add(RollingProgramSiteContentAddDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\Biz\Partial\Biz_Rolling_Program_Site_ContentService.cs:line 61
+【19:00:38.388】  Error T25 
+抛出信息：Biz_Rolling_Program_Site_ContentService.Add 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Biz_Rolling_Program_Site_ContentService.Add(RollingProgramSiteContentAddDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\Biz\Partial\Biz_Rolling_Program_Site_ContentService.cs:line 61
+【19:00:48.314】  Error T24 
+抛出信息：Biz_Rolling_Program_Site_ContentService.Add 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Biz_Rolling_Program_Site_ContentService.Add(RollingProgramSiteContentAddDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\Biz\Partial\Biz_Rolling_Program_Site_ContentService.cs:line 61
+【19:01:13.516】  Error T27 
+抛出信息：Biz_Rolling_Program_Site_ContentService.Add 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Biz_Rolling_Program_Site_ContentService.Add(RollingProgramSiteContentAddDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\Biz\Partial\Biz_Rolling_Program_Site_ContentService.cs:line 61
+【19:02:17.283】  Error T26 
+抛出信息：Biz_Rolling_Program_Site_ContentService.Add 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Biz_Rolling_Program_Site_ContentService.Add(RollingProgramSiteContentAddDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\Biz\Partial\Biz_Rolling_Program_Site_ContentService.cs:line 61
+【19:04:40.328】  Error T30 
+抛出信息：Biz_Rolling_Program_Site_ContentService.Add 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Biz_Rolling_Program_Site_ContentService.Add(RollingProgramSiteContentAddDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\Biz\Partial\Biz_Rolling_Program_Site_ContentService.cs:line 61
+【19:09:06.317】  Error T20 
+抛出信息：Biz_Rolling_Program_Site_ContentService.Add 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Biz_Rolling_Program_Site_ContentService.Add(RollingProgramSiteContentAddDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\Biz\Partial\Biz_Rolling_Program_Site_ContentService.cs:line 61
+【19:09:46.563】  Error T19 
+抛出信息：Biz_Rolling_Program_Site_ContentService.Add 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Biz_Rolling_Program_Site_ContentService.Add(RollingProgramSiteContentAddDto dto) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\Biz\Partial\Biz_Rolling_Program_Site_ContentService.cs:line 61

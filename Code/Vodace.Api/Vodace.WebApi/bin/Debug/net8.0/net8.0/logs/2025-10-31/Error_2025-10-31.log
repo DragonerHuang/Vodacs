@@ -1,0 +1,277 @@
+【09:59:53.452】  Error T18 
+抛出信息：Sys_Construction_Content_Init.ImportData 
+异常类型：SqlException 
+异常信息：Invalid object name 'Sys_Construction_Content_Init'. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Construction_Content_InitService.ImportData(IFormFile file)
+【10:26:35.923】  Error T21 
+抛出信息：Sys_Construction_Content_Init.ImportData 
+异常类型：SqlException 
+异常信息：Invalid object name 'Sys_Construction_Content_Init'. 
+堆栈调用：
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Vodace.Core.BaseProvider.RepositoryBase`1.Find(Expression`1 predicate) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\BaseProvider\RepositoryBase.cs:line 199
+   at Vodace.Sys.Services.Sys_Construction_Content_InitService.ImportData(IFormFile file) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Construction_Content_InitService.cs:line 457
+【15:44:10.433】  Error T75 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\jobs\init_files\5. Site Works-R5-Hydra-Fung（初始化工程任务）.xlsx' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadPreWorkAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 colStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 629
+【15:44:14.199】  Error T75 
+抛出信息：Sys_Construction_Content_Init.ImportData 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Sys_Construction_Content_InitService.ImportData(IFormFile file)
+【15:46:15.821】  Error T10 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\jobs\init_files\5. Site Works-R5-Hydra-Fung（初始化工程任务）.xlsx' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadPreWorkAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 colStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 629
+【15:46:25.753】  Error T10 
+抛出信息：Sys_Construction_Content_Init.ImportData 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Sys_Construction_Content_InitService.ImportData(IFormFile file) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Construction_Content_InitService.cs:line 127
+【15:57:00.034】  Error T21 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\jobs\init_files\5. Site Works-R5-Hydra-Fung（初始化工程任务）.xlsx' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadPreWorkAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 colStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 629
+【15:57:05.970】  Error T21 
+抛出信息：Sys_Construction_Content_Init.ImportData 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Sys_Construction_Content_InitService.ImportData(IFormFile file) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Construction_Content_InitService.cs:line 128
+【15:58:58.127】  Error T19 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\jobs\init_files\5. Site Works-R5-Hydra-Fung（初始化工程任务）.xlsx' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadPreWorkAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 colStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 629
+【15:59:06.626】  Error T19 
+抛出信息：Sys_Construction_Content_Init.ImportData 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Sys_Construction_Content_InitService.ImportData(IFormFile file)
+【15:59:21.452】  Error T16 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\jobs\init_files\5. Site Works-R5-Hydra-Fung（初始化工程任务）.xlsx' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadPreWorkAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 colStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 629
+【15:59:22.310】  Error T16 
+抛出信息：Sys_Construction_Content_Init.ImportData 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Sys_Construction_Content_InitService.ImportData(IFormFile file)
+【15:59:45.857】  Error T22 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\jobs\init_files\5. Site Works-R5-Hydra-Fung（初始化工程任务）.xlsx' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadPreWorkAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 colStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 629
+【15:59:53.626】  Error T22 
+抛出信息：Sys_Construction_Content_Init.ImportData 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Sys_Construction_Content_InitService.ImportData(IFormFile file)
+【16:00:11.730】  Error T16 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\jobs\init_files\5. Site Works-R5-Hydra-Fung（初始化工程任务）.xlsx' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadPreWorkAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 colStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 629
+【16:00:12.646】  Error T16 
+抛出信息：Sys_Construction_Content_Init.ImportData 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Sys_Construction_Content_InitService.ImportData(IFormFile file)
+【16:01:04.716】  Error T25 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\jobs\init_files\5. Site Works-R5-Hydra-Fung（初始化工程任务）.xlsx' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadPreWorkAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 colStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 629
+【16:01:04.766】  Error T25 
+抛出信息：NPOIHelper.ReadSiteWorkSheet 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\jobs\init_files\5. Site Works-R5-Hydra-Fung（初始化工程任务）.xlsx' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteWorkSheet(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 append, List`1 columns, Dictionary`2 dicColumns) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 419
+【16:01:09.613】  Error T25 
+抛出信息：Sys_Construction_Content_Init.ImportData 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Sys_Construction_Content_InitService.ImportData(IFormFile file)
+【16:01:25.147】  Error T27 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\jobs\init_files\5. Site Works-R5-Hydra-Fung（初始化工程任务）.xlsx' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadPreWorkAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 colStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 629
+【16:01:25.210】  Error T27 
+抛出信息：NPOIHelper.ReadSiteWorkSheet 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\jobs\init_files\5. Site Works-R5-Hydra-Fung（初始化工程任务）.xlsx' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteWorkSheet(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 append, List`1 columns, Dictionary`2 dicColumns) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 419
+【16:01:31.074】  Error T27 
+抛出信息：Sys_Construction_Content_Init.ImportData 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Sys_Construction_Content_InitService.ImportData(IFormFile file)
+【16:02:06.425】  Error T26 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\jobs\init_files\5. Site Works-R5-Hydra-Fung（初始化工程任务）.xlsx' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadPreWorkAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 colStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 629
+【16:02:06.538】  Error T26 
+抛出信息：NPOIHelper.ReadSiteWorkSheet 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\jobs\init_files\5. Site Works-R5-Hydra-Fung（初始化工程任务）.xlsx' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteWorkSheet(String filePath, Int32 sheetIndex, Int32 rowStart, Int32 append, List`1 columns, Dictionary`2 dicColumns) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 419
+【16:02:06.628】  Error T26 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\jobs\init_files\5. Site Works-R5-Hydra-Fung（初始化工程任务）.xlsx' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteSurveyAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 301
+【16:02:06.713】  Error T26 
+抛出信息：NPOIHelper.ReadSiteSurveyAsKeyValuePairs 
+异常类型：IOException 
+异常信息：The process cannot access the file 'D:\jobs\init_files\5. Site Works-R5-Hydra-Fung（初始化工程任务）.xlsx' because it is being used by another process. 
+堆栈调用：
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at Vodace.Core.Utilities.NPOIHelper.ReadSiteSurveyAsKeyValuePairs(String filePath, Int32 sheetIndex, Int32 rowStart) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Core\Utilities\NPOIHelper.cs:line 301
+【18:52:11.082】  Error T18 
+抛出信息：Sys_Construction_Content_Init.ImportData 
+异常类型：NullReferenceException 
+异常信息：Object reference not set to an instance of an object. 
+堆栈调用：
+   at Vodace.Sys.Services.Sys_Construction_Content_InitService.ImportData(IFormFile file) in D:\jobs\Project_Vodace_v5\Code\Vodace.Api\Vodace.Sys\Services\System\Partial\Sys_Construction_Content_InitService.cs:line 74
